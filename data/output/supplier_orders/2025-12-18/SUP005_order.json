@@ -1,0 +1,49 @@
+{
+  "supplier_id": "SUP005",
+  "order_date": "2025-12-18",
+  "generated_at": "2025-12-25T19:52:13.237100",
+  "total_items": 4,
+  "total_quantity": 1006,
+  "items": [
+    {
+      "sku": "SKU013",
+      "product_name": "Ice Cream 1L",
+      "supplier_id": "SUP005",
+      "raw_demand": 289,
+      "rounded_demand": 296,
+      "final_quantity": 296,
+      "case_size": 8,
+      "moq": 25
+    },
+    {
+      "sku": "SKU014",
+      "product_name": "Frozen Vegetables 500g",
+      "supplier_id": "SUP005",
+      "raw_demand": 293,
+      "rounded_demand": 300,
+      "final_quantity": 300,
+      "case_size": 12,
+      "moq": 40
+    },
+    {
+      "sku": "SKU015",
+      "product_name": "Fish Fillets 300g",
+      "supplier_id": "SUP005",
+      "raw_demand": 177,
+      "rounded_demand": 180,
+      "final_quantity": 180,
+      "case_size": 10,
+      "moq": 20
+    },
+    {
+      "sku": "SKU012",
+      "product_name": "Frozen Pizza 400g",
+      "supplier_id": "SUP005",
+      "raw_demand": 225,
+      "rounded_demand": 230,
+      "final_quantity": 230,
+      "case_size": 10,
+      "moq": 30
+    }
+  ]
+}

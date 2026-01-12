@@ -1,0 +1,61 @@
+{
+  "supplier_id": "SUP008",
+  "order_date": "2025-12-30",
+  "generated_at": "2025-12-31T20:20:54.999736",
+  "total_items": 4,
+  "total_quantity": 885,
+  "items": [
+    {
+      "sku": "SKU017",
+      "product_name": "Bananas 1kg",
+      "supplier_id": "SUP008",
+      "historical_orders": 200,
+      "current_stock": 120,
+      "safety_stock": 149,
+      "raw_demand": 229,
+      "rounded_demand": 240,
+      "final_quantity": 240,
+      "case_size": 20,
+      "moq": 60
+    },
+    {
+      "sku": "SKU019",
+      "product_name": "Apples 1kg",
+      "supplier_id": "SUP008",
+      "historical_orders": 240,
+      "current_stock": 131,
+      "safety_stock": 144,
+      "raw_demand": 253,
+      "rounded_demand": 255,
+      "final_quantity": 255,
+      "case_size": 15,
+      "moq": 50
+    },
+    {
+      "sku": "SKU016",
+      "product_name": "Tomatoes 1kg",
+      "supplier_id": "SUP008",
+      "historical_orders": 218,
+      "current_stock": 163,
+      "safety_stock": 143,
+      "raw_demand": 198,
+      "rounded_demand": 210,
+      "final_quantity": 210,
+      "case_size": 15,
+      "moq": 50
+    },
+    {
+      "sku": "SKU018",
+      "product_name": "Lettuce Head",
+      "supplier_id": "SUP008",
+      "historical_orders": 271,
+      "current_stock": 241,
+      "safety_stock": 143,
+      "raw_demand": 173,
+      "rounded_demand": 180,
+      "final_quantity": 180,
+      "case_size": 12,
+      "moq": 30
+    }
+  ]
+}

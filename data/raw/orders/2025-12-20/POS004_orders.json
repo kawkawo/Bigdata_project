@@ -1,0 +1,1352 @@
+[
+  {
+    "order_id": "a462a6eb-10e7-4812-876b-96528c0f7ceb",
+    "pos_id": "POS004",
+    "sku": "SKU006",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "01:57:58",
+    "customer_id": "89187662"
+  },
+  {
+    "order_id": "2a8ca4d2-7a4d-4647-b099-f476a7e7b8db",
+    "pos_id": "POS004",
+    "sku": "SKU017",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "19:22:50",
+    "customer_id": "65c7ad78"
+  },
+  {
+    "order_id": "ce6b4dd5-977d-41dc-8875-06e7204c2fb1",
+    "pos_id": "POS004",
+    "sku": "SKU025",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "00:20:24",
+    "customer_id": "98b517b9"
+  },
+  {
+    "order_id": "b70032db-56cc-444a-b404-eb6e0a9cb1df",
+    "pos_id": "POS004",
+    "sku": "SKU015",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "17:49:17",
+    "customer_id": "ae9effaa"
+  },
+  {
+    "order_id": "044d7fd7-0e68-428d-8712-d877e34cc1cd",
+    "pos_id": "POS004",
+    "sku": "SKU021",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "14:15:46",
+    "customer_id": "64465cc3"
+  },
+  {
+    "order_id": "6ac3840c-2e92-4aeb-8738-d5f466a3a7b1",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "04:31:39",
+    "customer_id": "a636b1bb"
+  },
+  {
+    "order_id": "01770ce2-8080-418b-9c2b-eaa9d06342a1",
+    "pos_id": "POS004",
+    "sku": "SKU019",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "08:36:19",
+    "customer_id": "2ecd1142"
+  },
+  {
+    "order_id": "b6ea6520-853c-47f5-a129-83fc60435614",
+    "pos_id": "POS004",
+    "sku": "SKU014",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "10:35:21",
+    "customer_id": "bd8be237"
+  },
+  {
+    "order_id": "27b2e802-7f72-437a-9f1c-859804cd1374",
+    "pos_id": "POS004",
+    "sku": "SKU018",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "01:33:55",
+    "customer_id": "53ff76b6"
+  },
+  {
+    "order_id": "8d03d2b9-1da2-40f0-a91e-3ad15cf58fe9",
+    "pos_id": "POS004",
+    "sku": "SKU008",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "18:17:05",
+    "customer_id": "02f9ad18"
+  },
+  {
+    "order_id": "4991c0c1-ac09-4f8b-bbea-85ba19a32110",
+    "pos_id": "POS004",
+    "sku": "SKU002",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "05:43:52",
+    "customer_id": "9ce3944f"
+  },
+  {
+    "order_id": "01736dc5-f21e-46d0-8c18-788c04e98587",
+    "pos_id": "POS004",
+    "sku": "SKU019",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "06:49:59",
+    "customer_id": "c97979f9"
+  },
+  {
+    "order_id": "14936a27-abd6-4f2c-8af6-d58deb09e7ad",
+    "pos_id": "POS004",
+    "sku": "SKU021",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "20:29:11",
+    "customer_id": "20181202"
+  },
+  {
+    "order_id": "9a812da1-c6a3-41ab-a800-819c1b614333",
+    "pos_id": "POS004",
+    "sku": "SKU014",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "19:09:25",
+    "customer_id": "ab2660ca"
+  },
+  {
+    "order_id": "67ca63e3-3db6-4fbe-99cd-59b0f90fb6bb",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "03:28:35",
+    "customer_id": "fabc149e"
+  },
+  {
+    "order_id": "0abe9680-b077-45f8-ba1d-0d752e824162",
+    "pos_id": "POS004",
+    "sku": "SKU007",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "16:31:51",
+    "customer_id": "bc61a813"
+  },
+  {
+    "order_id": "2cff197c-ef1b-44c2-889a-70dafc9f22dd",
+    "pos_id": "POS004",
+    "sku": "SKU025",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "12:15:19",
+    "customer_id": "0f28de93"
+  },
+  {
+    "order_id": "59442d43-17a5-402e-b1e0-22e3e1db6ad0",
+    "pos_id": "POS004",
+    "sku": "SKU013",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "02:32:38",
+    "customer_id": "cf2c99d9"
+  },
+  {
+    "order_id": "9db5a136-8619-4635-b896-7c5b7894a131",
+    "pos_id": "POS004",
+    "sku": "SKU025",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "13:42:03",
+    "customer_id": "c0c0bd3f"
+  },
+  {
+    "order_id": "d93f09db-8af5-4ad6-8645-0647834900cf",
+    "pos_id": "POS004",
+    "sku": "SKU018",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "16:36:44",
+    "customer_id": "ca682f95"
+  },
+  {
+    "order_id": "558f2a43-8c0a-4715-9968-76e0aad20620",
+    "pos_id": "POS004",
+    "sku": "SKU001",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "02:42:04",
+    "customer_id": "1260e3c3"
+  },
+  {
+    "order_id": "798f4174-6281-4c7f-b71a-240279027fb7",
+    "pos_id": "POS004",
+    "sku": "SKU024",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "11:28:43",
+    "customer_id": "a6eabaaf"
+  },
+  {
+    "order_id": "a05693d9-0487-4137-8b70-ca47579ca65b",
+    "pos_id": "POS004",
+    "sku": "SKU021",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "13:08:44",
+    "customer_id": "f3bb56da"
+  },
+  {
+    "order_id": "7f6306f9-41b9-4796-81a8-3542e711b814",
+    "pos_id": "POS004",
+    "sku": "SKU013",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "16:23:51",
+    "customer_id": "363b0c9c"
+  },
+  {
+    "order_id": "33a7d3bc-9d30-40e3-8623-d55d42b160b4",
+    "pos_id": "POS004",
+    "sku": "SKU008",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "02:48:40",
+    "customer_id": "ac316291"
+  },
+  {
+    "order_id": "2fa965a9-dcf8-4d72-a4bc-761e333c9b1d",
+    "pos_id": "POS004",
+    "sku": "SKU014",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "22:51:06",
+    "customer_id": "40daab98"
+  },
+  {
+    "order_id": "79d3991d-46a8-425b-86de-825a988b3f3b",
+    "pos_id": "POS004",
+    "sku": "SKU025",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "14:33:31",
+    "customer_id": "0e88ad73"
+  },
+  {
+    "order_id": "912f1f56-23c7-4dd0-a683-0bd70e7bd82b",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "16:34:33",
+    "customer_id": "d00a66a8"
+  },
+  {
+    "order_id": "5f2f737c-9888-42fb-8d2e-ac527b2ae4c5",
+    "pos_id": "POS004",
+    "sku": "SKU003",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "10:23:44",
+    "customer_id": "a26dffdc"
+  },
+  {
+    "order_id": "fecedd9d-3c92-4e9b-9ddd-5e0bdca2b6f6",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "20:19:46",
+    "customer_id": "53ea405c"
+  },
+  {
+    "order_id": "2b08d466-a28a-4cec-a305-075907b8d018",
+    "pos_id": "POS004",
+    "sku": "SKU010",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "08:06:42",
+    "customer_id": "3dec4cc0"
+  },
+  {
+    "order_id": "f2a42db3-f887-4e71-ad27-3ee9d14446c6",
+    "pos_id": "POS004",
+    "sku": "SKU012",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "06:44:58",
+    "customer_id": "ead056c8"
+  },
+  {
+    "order_id": "f2bae3a8-12b4-4508-98c2-2a018a48a928",
+    "pos_id": "POS004",
+    "sku": "SKU021",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "02:39:16",
+    "customer_id": "c8f07afe"
+  },
+  {
+    "order_id": "887a041a-753c-48dd-9803-30a8c9709fe2",
+    "pos_id": "POS004",
+    "sku": "SKU013",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "01:18:39",
+    "customer_id": "ac9e8add"
+  },
+  {
+    "order_id": "327d22dc-35f1-4f82-b5cd-e245ca694ee9",
+    "pos_id": "POS004",
+    "sku": "SKU002",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "01:57:13",
+    "customer_id": "c4e3f7f0"
+  },
+  {
+    "order_id": "f935fb7c-23e8-4e98-9b21-94f03776ad95",
+    "pos_id": "POS004",
+    "sku": "SKU016",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "06:56:55",
+    "customer_id": "ca72c4e1"
+  },
+  {
+    "order_id": "5fe7e9b2-4e29-461a-b13a-6a4f8240da7e",
+    "pos_id": "POS004",
+    "sku": "SKU013",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "11:17:23",
+    "customer_id": "e4315e96"
+  },
+  {
+    "order_id": "d5637279-152d-4da1-871d-23e488000a1f",
+    "pos_id": "POS004",
+    "sku": "SKU003",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "21:59:04",
+    "customer_id": "bb6cda27"
+  },
+  {
+    "order_id": "3cec88ae-4ed1-405b-973e-8970954f1209",
+    "pos_id": "POS004",
+    "sku": "SKU019",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "11:35:43",
+    "customer_id": "08fda727"
+  },
+  {
+    "order_id": "dfce3a6f-e1ef-4d33-a133-eefe5c615e29",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "09:22:45",
+    "customer_id": "09a5ba09"
+  },
+  {
+    "order_id": "e8394434-96ac-40dd-b5cb-4deeb7b8e52a",
+    "pos_id": "POS004",
+    "sku": "SKU014",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "01:10:52",
+    "customer_id": "c4a66284"
+  },
+  {
+    "order_id": "555a6e2d-9912-41d3-b5f7-f720dcaa62ee",
+    "pos_id": "POS004",
+    "sku": "SKU019",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "21:19:36",
+    "customer_id": "65e368e3"
+  },
+  {
+    "order_id": "66570ed7-bd9b-432d-b948-26df69ed856e",
+    "pos_id": "POS004",
+    "sku": "SKU025",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "20:06:18",
+    "customer_id": "bfeee3ee"
+  },
+  {
+    "order_id": "9c75c365-7343-4554-a10b-e3e05d65083e",
+    "pos_id": "POS004",
+    "sku": "SKU008",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "21:07:09",
+    "customer_id": "2a56cc6d"
+  },
+  {
+    "order_id": "22d3cdb1-6458-40fd-8b85-8f773acbc14d",
+    "pos_id": "POS004",
+    "sku": "SKU019",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "00:19:33",
+    "customer_id": "c9588af8"
+  },
+  {
+    "order_id": "ad153e50-9417-4a5d-b7d0-846badd28d05",
+    "pos_id": "POS004",
+    "sku": "SKU006",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "16:19:13",
+    "customer_id": "4e66473f"
+  },
+  {
+    "order_id": "88c95f61-ad2d-4296-98ca-ff1f15ffc300",
+    "pos_id": "POS004",
+    "sku": "SKU015",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "00:44:08",
+    "customer_id": "d5414527"
+  },
+  {
+    "order_id": "afb77b00-89c4-401e-8036-8f1cbae46b8f",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "13:40:38",
+    "customer_id": "95ab25ef"
+  },
+  {
+    "order_id": "d9c9d40b-6857-4a08-a43f-47364d087afd",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "17:09:23",
+    "customer_id": "621709c1"
+  },
+  {
+    "order_id": "d134f1d9-e027-4a36-90b8-87e38f05ee52",
+    "pos_id": "POS004",
+    "sku": "SKU003",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "04:33:36",
+    "customer_id": "247141d6"
+  },
+  {
+    "order_id": "de2a5111-6290-4728-9c58-a815b7cdb58e",
+    "pos_id": "POS004",
+    "sku": "SKU019",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "18:32:49",
+    "customer_id": "b7c7674e"
+  },
+  {
+    "order_id": "eaff05c8-3ace-4283-ae43-532bcc62a33e",
+    "pos_id": "POS004",
+    "sku": "SKU025",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "22:29:33",
+    "customer_id": "afc65d16"
+  },
+  {
+    "order_id": "a2604d93-559b-44a5-92e7-4c2671ba97fb",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "12:47:51",
+    "customer_id": "02bc683a"
+  },
+  {
+    "order_id": "17db2076-c909-4b0f-bd49-85c7c60a1ebd",
+    "pos_id": "POS004",
+    "sku": "SKU020",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "13:53:38",
+    "customer_id": "4c15e662"
+  },
+  {
+    "order_id": "11b72d5d-bf69-4f6b-a7af-7c22a9f14f74",
+    "pos_id": "POS004",
+    "sku": "SKU009",
+    "quantity": 8,
+    "order_date": "2025-12-20",
+    "order_time": "05:28:30",
+    "customer_id": "9b7fb013"
+  },
+  {
+    "order_id": "e7e20d2a-748b-4c57-a145-dafbf591bec1",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "22:34:35",
+    "customer_id": "ef304aaf"
+  },
+  {
+    "order_id": "b408dd48-e108-48b8-b6e1-944eed86d98c",
+    "pos_id": "POS004",
+    "sku": "SKU020",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "04:17:41",
+    "customer_id": "d213fa15"
+  },
+  {
+    "order_id": "ec0845f5-78a5-43a1-bdc3-3265a2ef09f1",
+    "pos_id": "POS004",
+    "sku": "SKU008",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "16:17:20",
+    "customer_id": "a1c2bee2"
+  },
+  {
+    "order_id": "c1082fb6-5df1-49c0-9127-89995d82b1e1",
+    "pos_id": "POS004",
+    "sku": "SKU017",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "07:26:50",
+    "customer_id": "ed3cc00a"
+  },
+  {
+    "order_id": "d55498d7-68ee-4de9-a124-00ce653b9b9a",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "20:11:59",
+    "customer_id": "350721e3"
+  },
+  {
+    "order_id": "d49f9294-3837-41ec-89a4-a32075a18707",
+    "pos_id": "POS004",
+    "sku": "SKU010",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "01:49:56",
+    "customer_id": "56ebc08e"
+  },
+  {
+    "order_id": "1858b52c-2bdb-4367-b447-c07614fddb78",
+    "pos_id": "POS004",
+    "sku": "SKU002",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "06:58:29",
+    "customer_id": "9eaf45b9"
+  },
+  {
+    "order_id": "fd82cffa-f0fd-4717-b6cc-8d2e37f143ea",
+    "pos_id": "POS004",
+    "sku": "SKU023",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "18:45:13",
+    "customer_id": "938c2060"
+  },
+  {
+    "order_id": "bd76e06e-f603-4022-97e9-0dfb94b0bcaf",
+    "pos_id": "POS004",
+    "sku": "SKU008",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "20:47:11",
+    "customer_id": "9eeb31fc"
+  },
+  {
+    "order_id": "a50c73a6-8ecc-44f4-ad78-7df0c78c9565",
+    "pos_id": "POS004",
+    "sku": "SKU010",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "22:21:48",
+    "customer_id": "bb6c139b"
+  },
+  {
+    "order_id": "73bc78c1-443a-4b81-88e1-d01bd7486704",
+    "pos_id": "POS004",
+    "sku": "SKU009",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "08:26:57",
+    "customer_id": "afc893cd"
+  },
+  {
+    "order_id": "b67f1a0b-bd34-4b95-afad-16a1711f4bbd",
+    "pos_id": "POS004",
+    "sku": "SKU020",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "06:04:17",
+    "customer_id": "0d9195c5"
+  },
+  {
+    "order_id": "ccbcb4c7-dca3-43b2-b6b7-cf4225c5c975",
+    "pos_id": "POS004",
+    "sku": "SKU009",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "16:29:55",
+    "customer_id": "5b8c5324"
+  },
+  {
+    "order_id": "46471eec-efb3-455d-b7b8-d66be3b59b42",
+    "pos_id": "POS004",
+    "sku": "SKU017",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "11:50:12",
+    "customer_id": "24d6dcc6"
+  },
+  {
+    "order_id": "798dbb83-4d38-40da-b63a-e85a5a1b2be2",
+    "pos_id": "POS004",
+    "sku": "SKU015",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "09:17:34",
+    "customer_id": "81988a4c"
+  },
+  {
+    "order_id": "46892885-af20-4e74-82d5-aa8eb5266fa2",
+    "pos_id": "POS004",
+    "sku": "SKU001",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "12:39:36",
+    "customer_id": "47bc68b6"
+  },
+  {
+    "order_id": "ee8a1d9e-f442-43fd-80bb-87d7691bee8a",
+    "pos_id": "POS004",
+    "sku": "SKU020",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "14:44:11",
+    "customer_id": "c56dbab2"
+  },
+  {
+    "order_id": "358f0fdd-8c1b-44a0-afd5-075b62d7f8b5",
+    "pos_id": "POS004",
+    "sku": "SKU018",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "01:46:51",
+    "customer_id": "328dfed1"
+  },
+  {
+    "order_id": "938061c4-0c55-4ff1-96b5-bc4babfe33bf",
+    "pos_id": "POS004",
+    "sku": "SKU009",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "14:39:15",
+    "customer_id": "de72571a"
+  },
+  {
+    "order_id": "43855df9-df00-458b-a473-34f1424670e8",
+    "pos_id": "POS004",
+    "sku": "SKU004",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "12:39:56",
+    "customer_id": "de996afb"
+  },
+  {
+    "order_id": "e71a726c-430a-41e0-b9c9-f8f093dadb84",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "17:34:14",
+    "customer_id": "aedb2ece"
+  },
+  {
+    "order_id": "0079c105-9fee-4dfb-adf5-fb8528a7c7ca",
+    "pos_id": "POS004",
+    "sku": "SKU023",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "04:23:36",
+    "customer_id": "f5bc7472"
+  },
+  {
+    "order_id": "45b6e148-98ce-4ccc-8072-5212418c80c8",
+    "pos_id": "POS004",
+    "sku": "SKU012",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "06:24:16",
+    "customer_id": "12cf0a34"
+  },
+  {
+    "order_id": "906b32a1-a47b-471d-9408-18029d94ec8e",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "01:27:42",
+    "customer_id": "79e59d73"
+  },
+  {
+    "order_id": "16ceb8f2-e28b-4523-bc70-4a98d7330a44",
+    "pos_id": "POS004",
+    "sku": "SKU024",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "03:58:21",
+    "customer_id": "41ae4831"
+  },
+  {
+    "order_id": "62b0edf4-89f1-451e-90b6-020ad57ac51f",
+    "pos_id": "POS004",
+    "sku": "SKU012",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "15:37:09",
+    "customer_id": "ffce2960"
+  },
+  {
+    "order_id": "4031c60e-54d1-4c6c-b973-2c3c63ae6c64",
+    "pos_id": "POS004",
+    "sku": "SKU008",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "04:28:32",
+    "customer_id": "fd3f568b"
+  },
+  {
+    "order_id": "e998e576-2282-4245-9681-4eb02f89c29f",
+    "pos_id": "POS004",
+    "sku": "SKU023",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "21:34:36",
+    "customer_id": "d4899c55"
+  },
+  {
+    "order_id": "eb165af2-f980-4ac9-9193-0468b9705329",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "02:01:21",
+    "customer_id": "cab3addb"
+  },
+  {
+    "order_id": "39e3c66b-2019-43cc-bc15-bb85eafcc47d",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "10:02:58",
+    "customer_id": "8a1e3d8b"
+  },
+  {
+    "order_id": "0159c2ae-0e1d-4cf9-90ff-1f97a89ba218",
+    "pos_id": "POS004",
+    "sku": "SKU022",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "09:56:27",
+    "customer_id": "e0825457"
+  },
+  {
+    "order_id": "2f9a8f3f-b2bd-40de-b793-df212cf2bfec",
+    "pos_id": "POS004",
+    "sku": "SKU008",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "12:38:07",
+    "customer_id": "31fbbc60"
+  },
+  {
+    "order_id": "24dfc922-7009-4654-a0e0-e070a43e7ba8",
+    "pos_id": "POS004",
+    "sku": "SKU018",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "12:56:20",
+    "customer_id": "10f799dc"
+  },
+  {
+    "order_id": "2ee3442c-6ca7-41b5-88c3-47161f74a2cf",
+    "pos_id": "POS004",
+    "sku": "SKU020",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "20:42:53",
+    "customer_id": "e934d61d"
+  },
+  {
+    "order_id": "706e2152-5dd3-470c-8631-74eabfce0af6",
+    "pos_id": "POS004",
+    "sku": "SKU020",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "01:20:45",
+    "customer_id": "1d1e5975"
+  },
+  {
+    "order_id": "a54ffa2d-a8f8-44b4-bfe7-3072ff9816f0",
+    "pos_id": "POS004",
+    "sku": "SKU004",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "19:19:23",
+    "customer_id": "17405621"
+  },
+  {
+    "order_id": "20293715-0060-44de-a1dd-38b7ade3adb7",
+    "pos_id": "POS004",
+    "sku": "SKU016",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "03:29:14",
+    "customer_id": "1373e4d1"
+  },
+  {
+    "order_id": "f14b5993-6b52-4c8b-bc6c-613235c7d144",
+    "pos_id": "POS004",
+    "sku": "SKU015",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "11:33:34",
+    "customer_id": "066f68f6"
+  },
+  {
+    "order_id": "d0640160-bf72-4383-8486-6a6563990e49",
+    "pos_id": "POS004",
+    "sku": "SKU022",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "15:18:02",
+    "customer_id": "0f5915eb"
+  },
+  {
+    "order_id": "9ae76f55-8030-43dd-a415-512312b34663",
+    "pos_id": "POS004",
+    "sku": "SKU001",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "15:29:38",
+    "customer_id": "da022778"
+  },
+  {
+    "order_id": "72d85a78-23d7-43a2-b24b-3ae411987426",
+    "pos_id": "POS004",
+    "sku": "SKU018",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "22:15:32",
+    "customer_id": "13ec5c82"
+  },
+  {
+    "order_id": "5725fa4a-4950-4df1-a5f5-f4a3445dae88",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "04:15:33",
+    "customer_id": "357d5c1b"
+  },
+  {
+    "order_id": "69c12ebb-4555-4ee8-b0f1-5ce574c008b0",
+    "pos_id": "POS004",
+    "sku": "SKU017",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "07:53:15",
+    "customer_id": "08ceb6c4"
+  },
+  {
+    "order_id": "411a0cad-a0f4-42f8-8042-df2d5a06da60",
+    "pos_id": "POS004",
+    "sku": "SKU021",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "04:01:14",
+    "customer_id": "f4c7b9c2"
+  },
+  {
+    "order_id": "44b61984-92be-4cba-ad47-6d229ee4bcd0",
+    "pos_id": "POS004",
+    "sku": "SKU023",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "13:18:48",
+    "customer_id": "e2ee9aed"
+  },
+  {
+    "order_id": "a0ba1218-29d2-4624-bab0-90a68bf78e1f",
+    "pos_id": "POS004",
+    "sku": "SKU024",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "18:41:35",
+    "customer_id": "8d509118"
+  },
+  {
+    "order_id": "d136e15e-bd9b-4ae9-a4cd-e3adb145ac86",
+    "pos_id": "POS004",
+    "sku": "SKU014",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "10:52:26",
+    "customer_id": "0a593520"
+  },
+  {
+    "order_id": "9620e772-82b6-40fc-879f-5dcef48c9c14",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "17:21:04",
+    "customer_id": "9969b184"
+  },
+  {
+    "order_id": "a398127b-d4aa-4d17-a846-1e131b91d59a",
+    "pos_id": "POS004",
+    "sku": "SKU020",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "06:20:21",
+    "customer_id": "104dc091"
+  },
+  {
+    "order_id": "c7424fdc-d9aa-4a4c-a61c-4e6c252a242b",
+    "pos_id": "POS004",
+    "sku": "SKU001",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "16:03:13",
+    "customer_id": "12011a2c"
+  },
+  {
+    "order_id": "67a314a9-4b75-403d-8d1d-00e3e2a4826a",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "22:33:55",
+    "customer_id": "62a2cac5"
+  },
+  {
+    "order_id": "ff519a94-71ee-41fb-b0fb-a430e176862f",
+    "pos_id": "POS004",
+    "sku": "SKU004",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "18:25:05",
+    "customer_id": "fc8456f0"
+  },
+  {
+    "order_id": "51dde0b2-f004-4e21-89c1-e052660545dd",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "04:45:44",
+    "customer_id": "60a5a9c3"
+  },
+  {
+    "order_id": "a72ac22f-c5a7-4aed-a3ed-5af02594619b",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 8,
+    "order_date": "2025-12-20",
+    "order_time": "08:34:37",
+    "customer_id": "f1cdac3a"
+  },
+  {
+    "order_id": "bd2719b7-77e3-4853-ad1c-c50ca1d5c423",
+    "pos_id": "POS004",
+    "sku": "SKU002",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "02:30:19",
+    "customer_id": "dfd8e90b"
+  },
+  {
+    "order_id": "8d963592-a493-40e1-8c5b-83e0d6287baa",
+    "pos_id": "POS004",
+    "sku": "SKU024",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "13:09:52",
+    "customer_id": "bf57c0cf"
+  },
+  {
+    "order_id": "73da687d-16eb-4f0b-a586-a82458b72e14",
+    "pos_id": "POS004",
+    "sku": "SKU005",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "05:15:05",
+    "customer_id": "5640e3e9"
+  },
+  {
+    "order_id": "d6df7fef-e7fd-4beb-a1e6-4aff4e1bb97b",
+    "pos_id": "POS004",
+    "sku": "SKU003",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "11:20:36",
+    "customer_id": "4c9e8b9d"
+  },
+  {
+    "order_id": "b7a1436e-9254-4a2a-a048-0b462daeb9ff",
+    "pos_id": "POS004",
+    "sku": "SKU020",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "21:21:00",
+    "customer_id": "9229f1f2"
+  },
+  {
+    "order_id": "da1a9b68-48fb-4749-9265-df49ee4481dd",
+    "pos_id": "POS004",
+    "sku": "SKU008",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "07:33:25",
+    "customer_id": "cf994252"
+  },
+  {
+    "order_id": "1acd9094-c2b0-47dd-b17f-ebf4be0f5a1b",
+    "pos_id": "POS004",
+    "sku": "SKU019",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "08:21:50",
+    "customer_id": "43022ca5"
+  },
+  {
+    "order_id": "99d534ec-de8a-4deb-9a56-792bdab5dc1e",
+    "pos_id": "POS004",
+    "sku": "SKU015",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "13:11:11",
+    "customer_id": "b62cb8f1"
+  },
+  {
+    "order_id": "bf9dd7d6-f46a-4bd9-b5c1-9165fbdc1386",
+    "pos_id": "POS004",
+    "sku": "SKU014",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "07:24:12",
+    "customer_id": "3af7a609"
+  },
+  {
+    "order_id": "22f455b2-14fa-42ec-9b94-424f8324dcc4",
+    "pos_id": "POS004",
+    "sku": "SKU015",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "04:57:49",
+    "customer_id": "c65c9132"
+  },
+  {
+    "order_id": "f2a13bea-2df4-4da1-9ea6-569c7d9b7332",
+    "pos_id": "POS004",
+    "sku": "SKU018",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "04:35:35",
+    "customer_id": "a99e5c57"
+  },
+  {
+    "order_id": "dff96232-19ac-4c3f-a199-28680fea6d50",
+    "pos_id": "POS004",
+    "sku": "SKU006",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "20:00:57",
+    "customer_id": "1fa96d89"
+  },
+  {
+    "order_id": "68ca24c5-dee0-4ece-872b-b33b40ae18b9",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "22:31:58",
+    "customer_id": "139f61f2"
+  },
+  {
+    "order_id": "0f2e75f1-4337-4fe7-ab91-ac44e0a94c8b",
+    "pos_id": "POS004",
+    "sku": "SKU002",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "12:05:59",
+    "customer_id": "02e4cb6f"
+  },
+  {
+    "order_id": "6ba9cc04-c247-4852-8d8c-1849ae8f0ab7",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "06:45:59",
+    "customer_id": "ed774b10"
+  },
+  {
+    "order_id": "518d8365-24d6-4f0f-89eb-7666e139fe0d",
+    "pos_id": "POS004",
+    "sku": "SKU014",
+    "quantity": 8,
+    "order_date": "2025-12-20",
+    "order_time": "05:29:42",
+    "customer_id": "aa278f34"
+  },
+  {
+    "order_id": "90f6c3fb-95f9-400b-8649-ae14e0f203ac",
+    "pos_id": "POS004",
+    "sku": "SKU012",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "00:43:15",
+    "customer_id": "7deeee6c"
+  },
+  {
+    "order_id": "c9321661-d354-4bbb-ba0b-f58d21940187",
+    "pos_id": "POS004",
+    "sku": "SKU023",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "05:09:21",
+    "customer_id": "c870a660"
+  },
+  {
+    "order_id": "fe8a44e5-c13b-4a7f-aa20-cf03a91dca91",
+    "pos_id": "POS004",
+    "sku": "SKU016",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "23:28:40",
+    "customer_id": "ac497e5e"
+  },
+  {
+    "order_id": "0eec938d-7617-497f-9ea1-347df5dc3f95",
+    "pos_id": "POS004",
+    "sku": "SKU010",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "11:10:43",
+    "customer_id": "7cc6b898"
+  },
+  {
+    "order_id": "d2371c73-4153-4e12-b643-d3449ca5f3ed",
+    "pos_id": "POS004",
+    "sku": "SKU009",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "09:19:30",
+    "customer_id": "9e818b55"
+  },
+  {
+    "order_id": "488dafbb-88ce-42ad-aa77-4b43a3864b5b",
+    "pos_id": "POS004",
+    "sku": "SKU017",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "01:46:31",
+    "customer_id": "1090ac7c"
+  },
+  {
+    "order_id": "0d2e62e7-bc7a-40bd-b6d7-15d8b6019754",
+    "pos_id": "POS004",
+    "sku": "SKU015",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "11:46:21",
+    "customer_id": "581658de"
+  },
+  {
+    "order_id": "3ef23721-cab2-4da2-ab19-0dc336488217",
+    "pos_id": "POS004",
+    "sku": "SKU014",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "13:33:50",
+    "customer_id": "14ccdb22"
+  },
+  {
+    "order_id": "70ac5299-5c96-40fd-b622-421b8f7c3b1c",
+    "pos_id": "POS004",
+    "sku": "SKU024",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "22:41:29",
+    "customer_id": "7869771e"
+  },
+  {
+    "order_id": "da782d04-ba6c-475c-a686-b9b36a4d9974",
+    "pos_id": "POS004",
+    "sku": "SKU012",
+    "quantity": 8,
+    "order_date": "2025-12-20",
+    "order_time": "00:23:22",
+    "customer_id": "d1bfe617"
+  },
+  {
+    "order_id": "968a10bd-7197-4978-8031-b8606e38e3a0",
+    "pos_id": "POS004",
+    "sku": "SKU021",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "01:28:50",
+    "customer_id": "55593e79"
+  },
+  {
+    "order_id": "8dd84bc9-fd28-4008-989e-35599ee96124",
+    "pos_id": "POS004",
+    "sku": "SKU006",
+    "quantity": 8,
+    "order_date": "2025-12-20",
+    "order_time": "14:16:23",
+    "customer_id": "ad88a746"
+  },
+  {
+    "order_id": "8310b1b5-ff5d-4490-bc68-db06bb1ab184",
+    "pos_id": "POS004",
+    "sku": "SKU012",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "11:24:40",
+    "customer_id": "53e7952b"
+  },
+  {
+    "order_id": "232cf81e-0709-470f-aa20-12f4205761d4",
+    "pos_id": "POS004",
+    "sku": "SKU013",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "14:19:40",
+    "customer_id": "a8b9d554"
+  },
+  {
+    "order_id": "231d53be-5e87-4dd3-824e-305f3805a575",
+    "pos_id": "POS004",
+    "sku": "SKU006",
+    "quantity": 9,
+    "order_date": "2025-12-20",
+    "order_time": "01:52:26",
+    "customer_id": "2e1aeca5"
+  },
+  {
+    "order_id": "f208ebef-b885-4b9c-b5a0-a5dd468f8451",
+    "pos_id": "POS004",
+    "sku": "SKU023",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "14:43:43",
+    "customer_id": "c673b28f"
+  },
+  {
+    "order_id": "8dbbec76-1160-4c20-95a4-157462e0b1b1",
+    "pos_id": "POS004",
+    "sku": "SKU010",
+    "quantity": 10,
+    "order_date": "2025-12-20",
+    "order_time": "02:07:51",
+    "customer_id": "88130b14"
+  },
+  {
+    "order_id": "168ceb75-abbf-42cd-8da0-84ec8d26ff33",
+    "pos_id": "POS004",
+    "sku": "SKU021",
+    "quantity": 7,
+    "order_date": "2025-12-20",
+    "order_time": "18:13:03",
+    "customer_id": "d62fad0d"
+  },
+  {
+    "order_id": "285bf79c-7e00-4bb1-9352-c3e48c3c7166",
+    "pos_id": "POS004",
+    "sku": "SKU011",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "16:38:57",
+    "customer_id": "b507a530"
+  },
+  {
+    "order_id": "a143d655-21bc-43b9-9f36-8ba53043b754",
+    "pos_id": "POS004",
+    "sku": "SKU003",
+    "quantity": 3,
+    "order_date": "2025-12-20",
+    "order_time": "01:59:12",
+    "customer_id": "cd1412db"
+  },
+  {
+    "order_id": "7645b66d-054b-44e1-aa6a-dd9f86c868ed",
+    "pos_id": "POS004",
+    "sku": "SKU012",
+    "quantity": 5,
+    "order_date": "2025-12-20",
+    "order_time": "09:29:07",
+    "customer_id": "c87e5dea"
+  },
+  {
+    "order_id": "9d2ccffb-d91a-4408-92e2-c261dcd41c23",
+    "pos_id": "POS004",
+    "sku": "SKU014",
+    "quantity": 4,
+    "order_date": "2025-12-20",
+    "order_time": "23:40:45",
+    "customer_id": "a7861a0c"
+  },
+  {
+    "order_id": "affe891b-b3b2-4113-a022-32b90743beb4",
+    "pos_id": "POS004",
+    "sku": "SKU004",
+    "quantity": 1,
+    "order_date": "2025-12-20",
+    "order_time": "15:14:19",
+    "customer_id": "8921b930"
+  },
+  {
+    "order_id": "4f4e3475-3132-4499-aa93-9c5d967d6544",
+    "pos_id": "POS004",
+    "sku": "SKU017",
+    "quantity": 2,
+    "order_date": "2025-12-20",
+    "order_time": "11:33:58",
+    "customer_id": "f90c9e7b"
+  },
+  {
+    "order_id": "23890d88-f56e-4bdf-b934-2be6255507f6",
+    "pos_id": "POS004",
+    "sku": "SKU013",
+    "quantity": 6,
+    "order_date": "2025-12-20",
+    "order_time": "02:26:26",
+    "customer_id": "d348bbf3"
+  }
+]

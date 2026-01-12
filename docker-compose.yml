@@ -1,0 +1,234 @@
+networks:
+  procurement-net:
+    driver: bridge
+
+volumes:
+  hadoop-namenode:
+  hadoop-datanode:
+  postgres-data:
+
+services:
+  # ============================================
+  # POSTGRESQL - Master Data Storage (OLTP)
+  # ============================================
+  postgres:
+    image: postgres:13-alpine
+    container_name: procurement-postgres
+    hostname: postgres
+    networks:
+      - procurement-net
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_DB: procurement
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_INITDB_ARGS: "-E UTF8"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d procurement"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # ============================================
+  # HADOOP NAMENODE - HDFS Master
+  # ============================================
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: hadoop-namenode
+    hostname: namenode
+    networks:
+      - procurement-net
+    ports:
+      - "9870:9870"   # NameNode Web UI
+      - "9000:9000"   # HDFS port
+    volumes:
+      - hadoop-namenode:/hadoop/dfs/name
+      - ./data:/data
+    environment:
+      - CLUSTER_NAME=procurement
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+    env_file:
+      - ./hadoop.env
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9870"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    restart: unless-stopped
+
+  # ============================================
+  # HADOOP DATANODE - HDFS Worker
+  # ============================================
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: hadoop-datanode
+    hostname: datanode
+    networks:
+      - procurement-net
+    ports:
+      - "9864:9864"   # DataNode Web UI
+    volumes:
+      - hadoop-datanode:/hadoop/dfs/data
+      - ./data:/data
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+    env_file:
+      - ./hadoop.env
+    depends_on:
+      namenode:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9864"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    restart: unless-stopped
+
+  # ============================================
+  # TRINO - Distributed SQL Query Engine
+  # ============================================
+  trino:
+    image: trinodb/trino:432
+    container_name: procurement-trino
+    hostname: trino
+    networks:
+      - procurement-net
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./trino-config:/etc/trino/catalog
+    depends_on:
+      postgres:
+        condition: service_healthy
+      namenode:
+        condition: service_healthy
+    environment:
+      - TRINO_JVM_HEAP=512m
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/v1/info"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+
+  # ============================================
+  # PYTHON  ORCHESTRATOR
+  # ============================================
+  python-orchestrator:
+    build:
+      context: ./python
+      dockerfile: Dockerfile
+    container_name: procurement-orchestrator
+    hostname: orchestrator
+    networks:
+      - procurement-net
+    volumes:
+      - ./python:/app
+      - ./data:/data
+    depends_on:
+      - namenode
+      - postgres
+      - trino
+    environment:
+      # Hadoop configuration
+      - HADOOP_NAMENODE=namenode
+      - HADOOP_PORT=9000
+      - HDFS_URL=http://namenode:9870
+      
+      # PostgreSQL configuration
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=procurement
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin123
+      
+      # Trino configuration
+      - TRINO_HOST=trino
+      - TRINO_PORT=8080
+      - TRINO_CATALOG=hive
+      
+      # Python settings
+      - PYTHONUNBUFFERED=1
+      - TZ=Africa/Casablanca
+    working_dir: /app
+    command: python /app/scheduler.py
+    restart: unless-stopped
+
+# ============================================
+# USAGE INSTRUCTIONS
+# ============================================
+# 
+# SETUP:
+# ------
+# 1. Pull images:
+#    docker pull bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+#    docker pull bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+#
+# 2. Start services ONE BY ONE (important for memory management):
+#    docker-compose up -d postgres
+#    sleep 15
+#    docker-compose up -d namenode
+#    sleep 45
+#    docker-compose up -d datanode
+#    sleep 20
+#    docker-compose up -d trino
+#    sleep 20
+#    docker-compose up -d python-orchestrator
+#
+# 3. Check all containers:
+#    docker-compose ps
+#
+# HDFS SETUP:
+# -----------
+# 4. Create HDFS directories:
+#    docker exec hadoop-namenode hdfs dfs -mkdir -p /data/raw/orders
+#    docker exec hadoop-namenode hdfs dfs -mkdir -p /data/raw/stock
+#    docker exec hadoop-namenode hdfs dfs -mkdir -p /data/processed
+#    docker exec hadoop-namenode hdfs dfs -mkdir -p /data/output
+#    docker exec hadoop-namenode hdfs dfs -chmod -R 777 /data
+#
+# 5. Verify HDFS:
+#    docker exec hadoop-namenode hdfs dfs -ls /
+#
+# DATA GENERATION:
+# ----------------
+# 6. Generate test data:
+#    docker exec procurement-orchestrator python generate_data.py --date 2025-12-13
+#
+# RUN PIPELINE:
+# -------------
+# 7. Execute pipeline:
+#    docker exec procurement-orchestrator python pipeline.py --date 2025-12-13
+#
+# WEB INTERFACES:
+# ---------------
+# - HDFS NameNode UI: http://localhost:9870
+# - DataNode UI: http://localhost:9864
+# - Trino Web UI: http://localhost:8080
+#
+# TROUBLESHOOTING:
+# ----------------
+# View logs:
+#   docker-compose logs namenode
+#   docker-compose logs datanode
+#   docker-compose logs postgres
+#   docker-compose logs trino
+#
+# Check resource usage:
+#   docker stats
+#
+# Restart if needed:
+#   docker-compose restart namenode
+#
+# Stop all:
+#   docker-compose down
+#
+# ============================================

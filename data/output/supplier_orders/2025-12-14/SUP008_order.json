@@ -1,0 +1,19 @@
+{
+  "supplier_id": "SUP008",
+  "order_date": "2025-12-14",
+  "generated_at": "2025-12-14T02:37:39.299750",
+  "total_items": 1,
+  "total_quantity": 60,
+  "items": [
+    {
+      "sku": "SKU017",
+      "product_name": "Bananas 1kg",
+      "supplier_id": "SUP008",
+      "raw_demand": 24,
+      "rounded_demand": 40,
+      "final_quantity": 60,
+      "case_size": 20,
+      "moq": 60
+    }
+  ]
+}

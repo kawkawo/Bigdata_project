@@ -1,0 +1,29 @@
+{
+  "supplier_id": "SUP006",
+  "order_date": "2025-12-15",
+  "generated_at": "2025-12-14T23:12:50.981687",
+  "total_items": 2,
+  "total_quantity": 804,
+  "items": [
+    {
+      "sku": "SKU021",
+      "product_name": "Chocolate Bar 100g",
+      "supplier_id": "SUP006",
+      "raw_demand": 499,
+      "rounded_demand": 504,
+      "final_quantity": 504,
+      "case_size": 24,
+      "moq": 80
+    },
+    {
+      "sku": "SKU022",
+      "product_name": "Cookies Pack 200g",
+      "supplier_id": "SUP006",
+      "raw_demand": 295,
+      "rounded_demand": 300,
+      "final_quantity": 300,
+      "case_size": 12,
+      "moq": 40
+    }
+  ]
+}

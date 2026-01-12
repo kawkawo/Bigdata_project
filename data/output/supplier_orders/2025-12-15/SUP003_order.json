@@ -1,0 +1,19 @@
+{
+  "supplier_id": "SUP003",
+  "order_date": "2025-12-15",
+  "generated_at": "2025-12-14T23:12:50.224464",
+  "total_items": 1,
+  "total_quantity": 90,
+  "items": [
+    {
+      "sku": "SKU006",
+      "product_name": "Cola 2L",
+      "supplier_id": "SUP003",
+      "raw_demand": 85,
+      "rounded_demand": 90,
+      "final_quantity": 90,
+      "case_size": 6,
+      "moq": 60
+    }
+  ]
+}

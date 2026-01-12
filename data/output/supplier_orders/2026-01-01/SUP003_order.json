@@ -1,0 +1,61 @@
+{
+  "supplier_id": "SUP003",
+  "order_date": "2026-01-01",
+  "generated_at": "2026-01-01T22:01:56.122707",
+  "total_items": 4,
+  "total_quantity": 780,
+  "items": [
+    {
+      "sku": "SKU006",
+      "product_name": "Cola 2L",
+      "supplier_id": "SUP003",
+      "historical_orders": 222,
+      "current_stock": 209,
+      "safety_stock": 106,
+      "raw_demand": 119,
+      "rounded_demand": 120,
+      "final_quantity": 120,
+      "case_size": 6,
+      "moq": 60
+    },
+    {
+      "sku": "SKU005",
+      "product_name": "Orange Juice 1L",
+      "supplier_id": "SUP003",
+      "historical_orders": 258,
+      "current_stock": 196,
+      "safety_stock": 135,
+      "raw_demand": 197,
+      "rounded_demand": 204,
+      "final_quantity": 204,
+      "case_size": 12,
+      "moq": 50
+    },
+    {
+      "sku": "SKU007",
+      "product_name": "Mineral Water 1.5L",
+      "supplier_id": "SUP003",
+      "historical_orders": 323,
+      "current_stock": 162,
+      "safety_stock": 112,
+      "raw_demand": 273,
+      "rounded_demand": 276,
+      "final_quantity": 276,
+      "case_size": 4,
+      "moq": 100
+    },
+    {
+      "sku": "SKU008",
+      "product_name": "Green Tea Box 25 bags",
+      "supplier_id": "SUP003",
+      "historical_orders": 206,
+      "current_stock": 167,
+      "safety_stock": 139,
+      "raw_demand": 178,
+      "rounded_demand": 180,
+      "final_quantity": 180,
+      "case_size": 12,
+      "moq": 20
+    }
+  ]
+}

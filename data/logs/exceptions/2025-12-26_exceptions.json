@@ -1,0 +1,10 @@
+{
+  "date": "2025-12-26",
+  "exception_count": 1,
+  "exceptions": [
+    {
+      "type": "missing_data",
+      "message": "No orders found in HDFS for 2025-12-26"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2025-12-29",
+  "exception_count": 1,
+  "exceptions": [
+    {
+      "type": "trino_error",
+      "message": "TrinoUserError(type=USER_ERROR, name=COLUMN_NOT_FOUND, message=\"line 7:27: Column 'orders' cannot be resolved\", query_id=20251230_201956_00030_zpfdw)"
+    }
+  ]
+}

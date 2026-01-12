@@ -1,0 +1,29 @@
+{
+  "supplier_id": "SUP005",
+  "order_date": "2025-12-15",
+  "generated_at": "2025-12-14T23:12:50.692144",
+  "total_items": 2,
+  "total_quantity": 90,
+  "items": [
+    {
+      "sku": "SKU012",
+      "product_name": "Frozen Pizza 400g",
+      "supplier_id": "SUP005",
+      "raw_demand": 29,
+      "rounded_demand": 30,
+      "final_quantity": 30,
+      "case_size": 10,
+      "moq": 30
+    },
+    {
+      "sku": "SKU014",
+      "product_name": "Frozen Vegetables 500g",
+      "supplier_id": "SUP005",
+      "raw_demand": 55,
+      "rounded_demand": 60,
+      "final_quantity": 60,
+      "case_size": 12,
+      "moq": 40
+    }
+  ]
+}

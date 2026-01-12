@@ -1,0 +1,48 @@
+{
+  "supplier_id": "SUP004",
+  "order_date": "2025-12-29",
+  "generated_at": "2025-12-30T21:23:55.555544",
+  "total_items": 3,
+  "total_quantity": 708,
+  "items": [
+    {
+      "sku": "SKU011",
+      "product_name": "Baguette",
+      "supplier_id": "SUP004",
+      "historical_orders": 263,
+      "current_stock": 143,
+      "safety_stock": 131,
+      "raw_demand": 251,
+      "rounded_demand": 264,
+      "final_quantity": 264,
+      "case_size": 24,
+      "moq": 100
+    },
+    {
+      "sku": "SKU010",
+      "product_name": "Croissants Pack of 4",
+      "supplier_id": "SUP004",
+      "historical_orders": 313,
+      "current_stock": 203,
+      "safety_stock": 144,
+      "raw_demand": 254,
+      "rounded_demand": 264,
+      "final_quantity": 264,
+      "case_size": 12,
+      "moq": 40
+    },
+    {
+      "sku": "SKU009",
+      "product_name": "White Bread 500g",
+      "supplier_id": "SUP004",
+      "historical_orders": 190,
+      "current_stock": 165,
+      "safety_stock": 138,
+      "raw_demand": 163,
+      "rounded_demand": 180,
+      "final_quantity": 180,
+      "case_size": 20,
+      "moq": 80
+    }
+  ]
+}

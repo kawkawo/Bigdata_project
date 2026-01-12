@@ -1,0 +1,14 @@
+{
+  "date": "2025-12-31",
+  "exception_count": 2,
+  "exceptions": [
+    {
+      "type": "no_data",
+      "message": "No orders found in Trino tables"
+    },
+    {
+      "type": "no_stock",
+      "message": "No stock snapshots available"
+    }
+  ]
+}

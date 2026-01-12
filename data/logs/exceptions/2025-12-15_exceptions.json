@@ -1,0 +1,24 @@
+{
+  "date": "2025-12-15",
+  "exception_count": 3,
+  "exceptions": [
+    {
+      "type": "demand_spike",
+      "sku": "SKU021",
+      "net_demand": 499,
+      "safety_stock": 82
+    },
+    {
+      "type": "demand_spike",
+      "sku": "SKU025",
+      "net_demand": 520,
+      "safety_stock": 85
+    },
+    {
+      "type": "demand_spike",
+      "sku": "SKU022",
+      "net_demand": 295,
+      "safety_stock": 78
+    }
+  ]
+}

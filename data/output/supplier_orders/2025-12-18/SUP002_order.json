@@ -1,0 +1,49 @@
+{
+  "supplier_id": "SUP002",
+  "order_date": "2025-12-18",
+  "generated_at": "2025-12-25T19:52:10.346450",
+  "total_items": 4,
+  "total_quantity": 556,
+  "items": [
+    {
+      "sku": "SKU001",
+      "product_name": "Whole Milk 1L",
+      "supplier_id": "SUP002",
+      "raw_demand": 145,
+      "rounded_demand": 156,
+      "final_quantity": 156,
+      "case_size": 12,
+      "moq": 50
+    },
+    {
+      "sku": "SKU002",
+      "product_name": "Cheddar Cheese 200g",
+      "supplier_id": "SUP002",
+      "raw_demand": 95,
+      "rounded_demand": 100,
+      "final_quantity": 100,
+      "case_size": 10,
+      "moq": 30
+    },
+    {
+      "sku": "SKU004",
+      "product_name": "Butter 250g",
+      "supplier_id": "SUP002",
+      "raw_demand": 152,
+      "rounded_demand": 156,
+      "final_quantity": 156,
+      "case_size": 12,
+      "moq": 30
+    },
+    {
+      "sku": "SKU003",
+      "product_name": "Plain Yogurt 500g",
+      "supplier_id": "SUP002",
+      "raw_demand": 142,
+      "rounded_demand": 144,
+      "final_quantity": 144,
+      "case_size": 6,
+      "moq": 40
+    }
+  ]
+}

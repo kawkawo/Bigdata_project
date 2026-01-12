@@ -1,0 +1,29 @@
+{
+  "supplier_id": "SUP007",
+  "order_date": "2025-12-15",
+  "generated_at": "2025-12-14T23:12:48.552574",
+  "total_items": 2,
+  "total_quantity": 664,
+  "items": [
+    {
+      "sku": "SKU023",
+      "product_name": "Dish Soap 500ml",
+      "supplier_id": "SUP007",
+      "raw_demand": 134,
+      "rounded_demand": 144,
+      "final_quantity": 144,
+      "case_size": 12,
+      "moq": 30
+    },
+    {
+      "sku": "SKU025",
+      "product_name": "Laundry Detergent 1L",
+      "supplier_id": "SUP007",
+      "raw_demand": 520,
+      "rounded_demand": 520,
+      "final_quantity": 520,
+      "case_size": 8,
+      "moq": 25
+    }
+  ]
+}

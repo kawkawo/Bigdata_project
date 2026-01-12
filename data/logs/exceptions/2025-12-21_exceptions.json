@@ -1,0 +1,14 @@
+{
+  "date": "2025-12-21",
+  "exception_count": 2,
+  "exceptions": [
+    {
+      "type": "missing_data",
+      "message": "No orders found in HDFS for 2025-12-21"
+    },
+    {
+      "type": "missing_data",
+      "message": "No stock data found in HDFS for 2025-12-21"
+    }
+  ]
+}

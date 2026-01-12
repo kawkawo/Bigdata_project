@@ -1,0 +1,29 @@
+{
+  "supplier_id": "SUP002",
+  "order_date": "2025-12-15",
+  "generated_at": "2025-12-14T23:12:51.668107",
+  "total_items": 2,
+  "total_quantity": 174,
+  "items": [
+    {
+      "sku": "SKU004",
+      "product_name": "Butter 250g",
+      "supplier_id": "SUP002",
+      "raw_demand": 141,
+      "rounded_demand": 144,
+      "final_quantity": 144,
+      "case_size": 12,
+      "moq": 30
+    },
+    {
+      "sku": "SKU002",
+      "product_name": "Cheddar Cheese 200g",
+      "supplier_id": "SUP002",
+      "raw_demand": 21,
+      "rounded_demand": 30,
+      "final_quantity": 30,
+      "case_size": 10,
+      "moq": 30
+    }
+  ]
+}

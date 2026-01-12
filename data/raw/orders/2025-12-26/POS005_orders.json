@@ -1,0 +1,1343 @@
+[
+  {
+    "order_id": "ORD32605",
+    "pos_id": "POS005",
+    "sku": "SKU017",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "14:34:00",
+    "customer_id": "CUST6227"
+  },
+  {
+    "order_id": "ORD63037",
+    "pos_id": "POS005",
+    "sku": "SKU022",
+    "quantity": 6,
+    "order_date": "2025-12-26",
+    "order_time": "18:21:00",
+    "customer_id": "CUST4085"
+  },
+  {
+    "order_id": "ORD51124",
+    "pos_id": "POS005",
+    "sku": "SKU006",
+    "quantity": 8,
+    "order_date": "2025-12-26",
+    "order_time": "22:13:00",
+    "customer_id": "CUST2350"
+  },
+  {
+    "order_id": "ORD23355",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 8,
+    "order_date": "2025-12-26",
+    "order_time": "20:22:00",
+    "customer_id": "CUST1420"
+  },
+  {
+    "order_id": "ORD94041",
+    "pos_id": "POS005",
+    "sku": "SKU003",
+    "quantity": 5,
+    "order_date": "2025-12-26",
+    "order_time": "10:30:00",
+    "customer_id": "CUST2833"
+  },
+  {
+    "order_id": "ORD78222",
+    "pos_id": "POS005",
+    "sku": "SKU024",
+    "quantity": 13,
+    "order_date": "2025-12-26",
+    "order_time": "22:11:00",
+    "customer_id": "CUST3888"
+  },
+  {
+    "order_id": "ORD83483",
+    "pos_id": "POS005",
+    "sku": "SKU023",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "15:38:00",
+    "customer_id": "CUST6605"
+  },
+  {
+    "order_id": "ORD61787",
+    "pos_id": "POS005",
+    "sku": "SKU013",
+    "quantity": 2,
+    "order_date": "2025-12-26",
+    "order_time": "15:21:00",
+    "customer_id": "CUST1153"
+  },
+  {
+    "order_id": "ORD76937",
+    "pos_id": "POS005",
+    "sku": "SKU018",
+    "quantity": 6,
+    "order_date": "2025-12-26",
+    "order_time": "19:2:00",
+    "customer_id": "CUST9189"
+  },
+  {
+    "order_id": "ORD99783",
+    "pos_id": "POS005",
+    "sku": "SKU010",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "18:40:00",
+    "customer_id": "CUST1242"
+  },
+  {
+    "order_id": "ORD33306",
+    "pos_id": "POS005",
+    "sku": "SKU022",
+    "quantity": 6,
+    "order_date": "2025-12-26",
+    "order_time": "9:38:00",
+    "customer_id": "CUST5843"
+  },
+  {
+    "order_id": "ORD63204",
+    "pos_id": "POS005",
+    "sku": "SKU002",
+    "quantity": 9,
+    "order_date": "2025-12-26",
+    "order_time": "11:9:00",
+    "customer_id": "CUST5260"
+  },
+  {
+    "order_id": "ORD43840",
+    "pos_id": "POS005",
+    "sku": "SKU003",
+    "quantity": 5,
+    "order_date": "2025-12-26",
+    "order_time": "21:21:00",
+    "customer_id": "CUST7926"
+  },
+  {
+    "order_id": "ORD23777",
+    "pos_id": "POS005",
+    "sku": "SKU004",
+    "quantity": 13,
+    "order_date": "2025-12-26",
+    "order_time": "9:13:00",
+    "customer_id": "CUST1920"
+  },
+  {
+    "order_id": "ORD44405",
+    "pos_id": "POS005",
+    "sku": "SKU017",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "20:58:00",
+    "customer_id": "CUST9670"
+  },
+  {
+    "order_id": "ORD12898",
+    "pos_id": "POS005",
+    "sku": "SKU006",
+    "quantity": 4,
+    "order_date": "2025-12-26",
+    "order_time": "22:34:00",
+    "customer_id": "CUST7807"
+  },
+  {
+    "order_id": "ORD67630",
+    "pos_id": "POS005",
+    "sku": "SKU019",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "21:58:00",
+    "customer_id": "CUST5590"
+  },
+  {
+    "order_id": "ORD83455",
+    "pos_id": "POS005",
+    "sku": "SKU017",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "13:13:00",
+    "customer_id": "CUST5428"
+  },
+  {
+    "order_id": "ORD55878",
+    "pos_id": "POS005",
+    "sku": "SKU002",
+    "quantity": 13,
+    "order_date": "2025-12-26",
+    "order_time": "20:32:00",
+    "customer_id": "CUST2750"
+  },
+  {
+    "order_id": "ORD83223",
+    "pos_id": "POS005",
+    "sku": "SKU007",
+    "quantity": 12,
+    "order_date": "2025-12-26",
+    "order_time": "17:39:00",
+    "customer_id": "CUST5685"
+  },
+  {
+    "order_id": "ORD72689",
+    "pos_id": "POS005",
+    "sku": "SKU022",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "19:9:00",
+    "customer_id": "CUST3388"
+  },
+  {
+    "order_id": "ORD80155",
+    "pos_id": "POS005",
+    "sku": "SKU022",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "8:25:00",
+    "customer_id": "CUST2435"
+  },
+  {
+    "order_id": "ORD68313",
+    "pos_id": "POS005",
+    "sku": "SKU009",
+    "quantity": 9,
+    "order_date": "2025-12-26",
+    "order_time": "14:16:00",
+    "customer_id": "CUST4933"
+  },
+  {
+    "order_id": "ORD49795",
+    "pos_id": "POS005",
+    "sku": "SKU023",
+    "quantity": 5,
+    "order_date": "2025-12-26",
+    "order_time": "19:28:00",
+    "customer_id": "CUST5733"
+  },
+  {
+    "order_id": "ORD73674",
+    "pos_id": "POS005",
+    "sku": "SKU018",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "15:17:00",
+    "customer_id": "CUST4975"
+  },
+  {
+    "order_id": "ORD72434",
+    "pos_id": "POS005",
+    "sku": "SKU010",
+    "quantity": 5,
+    "order_date": "2025-12-26",
+    "order_time": "14:11:00",
+    "customer_id": "CUST5503"
+  },
+  {
+    "order_id": "ORD72575",
+    "pos_id": "POS005",
+    "sku": "SKU016",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "20:44:00",
+    "customer_id": "CUST8405"
+  },
+  {
+    "order_id": "ORD76130",
+    "pos_id": "POS005",
+    "sku": "SKU014",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "12:6:00",
+    "customer_id": "CUST9391"
+  },
+  {
+    "order_id": "ORD80305",
+    "pos_id": "POS005",
+    "sku": "SKU003",
+    "quantity": 2,
+    "order_date": "2025-12-26",
+    "order_time": "14:44:00",
+    "customer_id": "CUST3600"
+  },
+  {
+    "order_id": "ORD92911",
+    "pos_id": "POS005",
+    "sku": "SKU020",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "12:13:00",
+    "customer_id": "CUST9830"
+  },
+  {
+    "order_id": "ORD16152",
+    "pos_id": "POS005",
+    "sku": "SKU005",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "9:38:00",
+    "customer_id": "CUST1791"
+  },
+  {
+    "order_id": "ORD63622",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 6,
+    "order_date": "2025-12-26",
+    "order_time": "22:4:00",
+    "customer_id": "CUST9511"
+  },
+  {
+    "order_id": "ORD29616",
+    "pos_id": "POS005",
+    "sku": "SKU009",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "20:54:00",
+    "customer_id": "CUST4656"
+  },
+  {
+    "order_id": "ORD63388",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "17:0:00",
+    "customer_id": "CUST2700"
+  },
+  {
+    "order_id": "ORD94374",
+    "pos_id": "POS005",
+    "sku": "SKU009",
+    "quantity": 13,
+    "order_date": "2025-12-26",
+    "order_time": "19:12:00",
+    "customer_id": "CUST6436"
+  },
+  {
+    "order_id": "ORD14876",
+    "pos_id": "POS005",
+    "sku": "SKU011",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "14:9:00",
+    "customer_id": "CUST5997"
+  },
+  {
+    "order_id": "ORD30914",
+    "pos_id": "POS005",
+    "sku": "SKU021",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "8:10:00",
+    "customer_id": "CUST3251"
+  },
+  {
+    "order_id": "ORD79730",
+    "pos_id": "POS005",
+    "sku": "SKU021",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "11:57:00",
+    "customer_id": "CUST3498"
+  },
+  {
+    "order_id": "ORD31287",
+    "pos_id": "POS005",
+    "sku": "SKU017",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "14:53:00",
+    "customer_id": "CUST5031"
+  },
+  {
+    "order_id": "ORD63071",
+    "pos_id": "POS005",
+    "sku": "SKU003",
+    "quantity": 6,
+    "order_date": "2025-12-26",
+    "order_time": "12:50:00",
+    "customer_id": "CUST6130"
+  },
+  {
+    "order_id": "ORD89787",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "9:45:00",
+    "customer_id": "CUST9243"
+  },
+  {
+    "order_id": "ORD93147",
+    "pos_id": "POS005",
+    "sku": "SKU018",
+    "quantity": 9,
+    "order_date": "2025-12-26",
+    "order_time": "11:6:00",
+    "customer_id": "CUST8497"
+  },
+  {
+    "order_id": "ORD86303",
+    "pos_id": "POS005",
+    "sku": "SKU002",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "17:3:00",
+    "customer_id": "CUST7670"
+  },
+  {
+    "order_id": "ORD76981",
+    "pos_id": "POS005",
+    "sku": "SKU017",
+    "quantity": 8,
+    "order_date": "2025-12-26",
+    "order_time": "20:57:00",
+    "customer_id": "CUST3539"
+  },
+  {
+    "order_id": "ORD55672",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "9:50:00",
+    "customer_id": "CUST9899"
+  },
+  {
+    "order_id": "ORD35802",
+    "pos_id": "POS005",
+    "sku": "SKU013",
+    "quantity": 2,
+    "order_date": "2025-12-26",
+    "order_time": "21:53:00",
+    "customer_id": "CUST7637"
+  },
+  {
+    "order_id": "ORD57111",
+    "pos_id": "POS005",
+    "sku": "SKU013",
+    "quantity": 12,
+    "order_date": "2025-12-26",
+    "order_time": "10:39:00",
+    "customer_id": "CUST5950"
+  },
+  {
+    "order_id": "ORD98592",
+    "pos_id": "POS005",
+    "sku": "SKU002",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "22:3:00",
+    "customer_id": "CUST5950"
+  },
+  {
+    "order_id": "ORD14897",
+    "pos_id": "POS005",
+    "sku": "SKU020",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "17:19:00",
+    "customer_id": "CUST1641"
+  },
+  {
+    "order_id": "ORD70501",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "20:46:00",
+    "customer_id": "CUST3980"
+  },
+  {
+    "order_id": "ORD42347",
+    "pos_id": "POS005",
+    "sku": "SKU019",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "9:25:00",
+    "customer_id": "CUST9430"
+  },
+  {
+    "order_id": "ORD99281",
+    "pos_id": "POS005",
+    "sku": "SKU024",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "10:42:00",
+    "customer_id": "CUST5285"
+  },
+  {
+    "order_id": "ORD80537",
+    "pos_id": "POS005",
+    "sku": "SKU021",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "8:18:00",
+    "customer_id": "CUST1615"
+  },
+  {
+    "order_id": "ORD85418",
+    "pos_id": "POS005",
+    "sku": "SKU004",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "18:54:00",
+    "customer_id": "CUST3947"
+  },
+  {
+    "order_id": "ORD23116",
+    "pos_id": "POS005",
+    "sku": "SKU017",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "20:45:00",
+    "customer_id": "CUST1741"
+  },
+  {
+    "order_id": "ORD94686",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 8,
+    "order_date": "2025-12-26",
+    "order_time": "16:36:00",
+    "customer_id": "CUST3127"
+  },
+  {
+    "order_id": "ORD73600",
+    "pos_id": "POS005",
+    "sku": "SKU003",
+    "quantity": 13,
+    "order_date": "2025-12-26",
+    "order_time": "10:51:00",
+    "customer_id": "CUST9909"
+  },
+  {
+    "order_id": "ORD18810",
+    "pos_id": "POS005",
+    "sku": "SKU025",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "12:34:00",
+    "customer_id": "CUST9190"
+  },
+  {
+    "order_id": "ORD15254",
+    "pos_id": "POS005",
+    "sku": "SKU021",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "10:20:00",
+    "customer_id": "CUST6407"
+  },
+  {
+    "order_id": "ORD35605",
+    "pos_id": "POS005",
+    "sku": "SKU014",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "19:28:00",
+    "customer_id": "CUST4659"
+  },
+  {
+    "order_id": "ORD53167",
+    "pos_id": "POS005",
+    "sku": "SKU003",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "12:22:00",
+    "customer_id": "CUST3146"
+  },
+  {
+    "order_id": "ORD92273",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 5,
+    "order_date": "2025-12-26",
+    "order_time": "8:53:00",
+    "customer_id": "CUST9865"
+  },
+  {
+    "order_id": "ORD27889",
+    "pos_id": "POS005",
+    "sku": "SKU007",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "13:4:00",
+    "customer_id": "CUST8226"
+  },
+  {
+    "order_id": "ORD99157",
+    "pos_id": "POS005",
+    "sku": "SKU002",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "19:48:00",
+    "customer_id": "CUST7357"
+  },
+  {
+    "order_id": "ORD53042",
+    "pos_id": "POS005",
+    "sku": "SKU001",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "12:8:00",
+    "customer_id": "CUST1324"
+  },
+  {
+    "order_id": "ORD31957",
+    "pos_id": "POS005",
+    "sku": "SKU016",
+    "quantity": 9,
+    "order_date": "2025-12-26",
+    "order_time": "12:50:00",
+    "customer_id": "CUST8704"
+  },
+  {
+    "order_id": "ORD14265",
+    "pos_id": "POS005",
+    "sku": "SKU009",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "9:37:00",
+    "customer_id": "CUST4906"
+  },
+  {
+    "order_id": "ORD20219",
+    "pos_id": "POS005",
+    "sku": "SKU014",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "8:18:00",
+    "customer_id": "CUST7341"
+  },
+  {
+    "order_id": "ORD92974",
+    "pos_id": "POS005",
+    "sku": "SKU019",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "21:52:00",
+    "customer_id": "CUST3182"
+  },
+  {
+    "order_id": "ORD45523",
+    "pos_id": "POS005",
+    "sku": "SKU025",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "18:12:00",
+    "customer_id": "CUST4088"
+  },
+  {
+    "order_id": "ORD70858",
+    "pos_id": "POS005",
+    "sku": "SKU014",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "15:52:00",
+    "customer_id": "CUST7621"
+  },
+  {
+    "order_id": "ORD22989",
+    "pos_id": "POS005",
+    "sku": "SKU025",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "20:15:00",
+    "customer_id": "CUST2416"
+  },
+  {
+    "order_id": "ORD41126",
+    "pos_id": "POS005",
+    "sku": "SKU004",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "20:3:00",
+    "customer_id": "CUST1282"
+  },
+  {
+    "order_id": "ORD40360",
+    "pos_id": "POS005",
+    "sku": "SKU013",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "9:1:00",
+    "customer_id": "CUST1337"
+  },
+  {
+    "order_id": "ORD22906",
+    "pos_id": "POS005",
+    "sku": "SKU025",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "16:45:00",
+    "customer_id": "CUST1165"
+  },
+  {
+    "order_id": "ORD81211",
+    "pos_id": "POS005",
+    "sku": "SKU024",
+    "quantity": 6,
+    "order_date": "2025-12-26",
+    "order_time": "13:7:00",
+    "customer_id": "CUST3317"
+  },
+  {
+    "order_id": "ORD72494",
+    "pos_id": "POS005",
+    "sku": "SKU023",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "18:26:00",
+    "customer_id": "CUST9878"
+  },
+  {
+    "order_id": "ORD15517",
+    "pos_id": "POS005",
+    "sku": "SKU011",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "19:36:00",
+    "customer_id": "CUST3654"
+  },
+  {
+    "order_id": "ORD28114",
+    "pos_id": "POS005",
+    "sku": "SKU005",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "8:53:00",
+    "customer_id": "CUST4314"
+  },
+  {
+    "order_id": "ORD55803",
+    "pos_id": "POS005",
+    "sku": "SKU012",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "13:37:00",
+    "customer_id": "CUST8824"
+  },
+  {
+    "order_id": "ORD64128",
+    "pos_id": "POS005",
+    "sku": "SKU010",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "12:54:00",
+    "customer_id": "CUST5459"
+  },
+  {
+    "order_id": "ORD28937",
+    "pos_id": "POS005",
+    "sku": "SKU012",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "14:13:00",
+    "customer_id": "CUST5223"
+  },
+  {
+    "order_id": "ORD70860",
+    "pos_id": "POS005",
+    "sku": "SKU006",
+    "quantity": 9,
+    "order_date": "2025-12-26",
+    "order_time": "8:33:00",
+    "customer_id": "CUST2254"
+  },
+  {
+    "order_id": "ORD87131",
+    "pos_id": "POS005",
+    "sku": "SKU022",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "15:4:00",
+    "customer_id": "CUST8998"
+  },
+  {
+    "order_id": "ORD16610",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "20:39:00",
+    "customer_id": "CUST3290"
+  },
+  {
+    "order_id": "ORD89237",
+    "pos_id": "POS005",
+    "sku": "SKU016",
+    "quantity": 12,
+    "order_date": "2025-12-26",
+    "order_time": "18:21:00",
+    "customer_id": "CUST4231"
+  },
+  {
+    "order_id": "ORD62356",
+    "pos_id": "POS005",
+    "sku": "SKU004",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "21:12:00",
+    "customer_id": "CUST2859"
+  },
+  {
+    "order_id": "ORD19202",
+    "pos_id": "POS005",
+    "sku": "SKU007",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "22:35:00",
+    "customer_id": "CUST6787"
+  },
+  {
+    "order_id": "ORD89274",
+    "pos_id": "POS005",
+    "sku": "SKU012",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "16:43:00",
+    "customer_id": "CUST7391"
+  },
+  {
+    "order_id": "ORD45945",
+    "pos_id": "POS005",
+    "sku": "SKU020",
+    "quantity": 9,
+    "order_date": "2025-12-26",
+    "order_time": "22:47:00",
+    "customer_id": "CUST3147"
+  },
+  {
+    "order_id": "ORD71211",
+    "pos_id": "POS005",
+    "sku": "SKU021",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "8:9:00",
+    "customer_id": "CUST3783"
+  },
+  {
+    "order_id": "ORD95764",
+    "pos_id": "POS005",
+    "sku": "SKU025",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "16:57:00",
+    "customer_id": "CUST5472"
+  },
+  {
+    "order_id": "ORD16643",
+    "pos_id": "POS005",
+    "sku": "SKU004",
+    "quantity": 13,
+    "order_date": "2025-12-26",
+    "order_time": "22:35:00",
+    "customer_id": "CUST5125"
+  },
+  {
+    "order_id": "ORD64439",
+    "pos_id": "POS005",
+    "sku": "SKU001",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "8:56:00",
+    "customer_id": "CUST3205"
+  },
+  {
+    "order_id": "ORD37095",
+    "pos_id": "POS005",
+    "sku": "SKU016",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "9:16:00",
+    "customer_id": "CUST5492"
+  },
+  {
+    "order_id": "ORD29037",
+    "pos_id": "POS005",
+    "sku": "SKU011",
+    "quantity": 4,
+    "order_date": "2025-12-26",
+    "order_time": "16:2:00",
+    "customer_id": "CUST4155"
+  },
+  {
+    "order_id": "ORD44462",
+    "pos_id": "POS005",
+    "sku": "SKU006",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "12:25:00",
+    "customer_id": "CUST5151"
+  },
+  {
+    "order_id": "ORD95689",
+    "pos_id": "POS005",
+    "sku": "SKU011",
+    "quantity": 5,
+    "order_date": "2025-12-26",
+    "order_time": "18:10:00",
+    "customer_id": "CUST6241"
+  },
+  {
+    "order_id": "ORD84482",
+    "pos_id": "POS005",
+    "sku": "SKU021",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "17:37:00",
+    "customer_id": "CUST3637"
+  },
+  {
+    "order_id": "ORD73780",
+    "pos_id": "POS005",
+    "sku": "SKU007",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "22:17:00",
+    "customer_id": "CUST8563"
+  },
+  {
+    "order_id": "ORD47096",
+    "pos_id": "POS005",
+    "sku": "SKU009",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "8:59:00",
+    "customer_id": "CUST4074"
+  },
+  {
+    "order_id": "ORD95335",
+    "pos_id": "POS005",
+    "sku": "SKU004",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "15:50:00",
+    "customer_id": "CUST9486"
+  },
+  {
+    "order_id": "ORD89758",
+    "pos_id": "POS005",
+    "sku": "SKU002",
+    "quantity": 9,
+    "order_date": "2025-12-26",
+    "order_time": "20:35:00",
+    "customer_id": "CUST6599"
+  },
+  {
+    "order_id": "ORD71577",
+    "pos_id": "POS005",
+    "sku": "SKU013",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "16:36:00",
+    "customer_id": "CUST1291"
+  },
+  {
+    "order_id": "ORD56631",
+    "pos_id": "POS005",
+    "sku": "SKU004",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "17:54:00",
+    "customer_id": "CUST7235"
+  },
+  {
+    "order_id": "ORD90510",
+    "pos_id": "POS005",
+    "sku": "SKU020",
+    "quantity": 12,
+    "order_date": "2025-12-26",
+    "order_time": "14:36:00",
+    "customer_id": "CUST2569"
+  },
+  {
+    "order_id": "ORD73304",
+    "pos_id": "POS005",
+    "sku": "SKU012",
+    "quantity": 12,
+    "order_date": "2025-12-26",
+    "order_time": "11:28:00",
+    "customer_id": "CUST5734"
+  },
+  {
+    "order_id": "ORD56453",
+    "pos_id": "POS005",
+    "sku": "SKU011",
+    "quantity": 9,
+    "order_date": "2025-12-26",
+    "order_time": "13:2:00",
+    "customer_id": "CUST4679"
+  },
+  {
+    "order_id": "ORD71370",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "10:56:00",
+    "customer_id": "CUST2132"
+  },
+  {
+    "order_id": "ORD15776",
+    "pos_id": "POS005",
+    "sku": "SKU008",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "18:23:00",
+    "customer_id": "CUST6397"
+  },
+  {
+    "order_id": "ORD92426",
+    "pos_id": "POS005",
+    "sku": "SKU001",
+    "quantity": 12,
+    "order_date": "2025-12-26",
+    "order_time": "20:11:00",
+    "customer_id": "CUST1518"
+  },
+  {
+    "order_id": "ORD83134",
+    "pos_id": "POS005",
+    "sku": "SKU019",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "8:9:00",
+    "customer_id": "CUST8403"
+  },
+  {
+    "order_id": "ORD21552",
+    "pos_id": "POS005",
+    "sku": "SKU021",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "13:52:00",
+    "customer_id": "CUST1751"
+  },
+  {
+    "order_id": "ORD33432",
+    "pos_id": "POS005",
+    "sku": "SKU025",
+    "quantity": 5,
+    "order_date": "2025-12-26",
+    "order_time": "11:58:00",
+    "customer_id": "CUST8626"
+  },
+  {
+    "order_id": "ORD65820",
+    "pos_id": "POS005",
+    "sku": "SKU005",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "16:44:00",
+    "customer_id": "CUST2719"
+  },
+  {
+    "order_id": "ORD29977",
+    "pos_id": "POS005",
+    "sku": "SKU021",
+    "quantity": 2,
+    "order_date": "2025-12-26",
+    "order_time": "11:41:00",
+    "customer_id": "CUST8180"
+  },
+  {
+    "order_id": "ORD37551",
+    "pos_id": "POS005",
+    "sku": "SKU020",
+    "quantity": 5,
+    "order_date": "2025-12-26",
+    "order_time": "21:6:00",
+    "customer_id": "CUST1828"
+  },
+  {
+    "order_id": "ORD28736",
+    "pos_id": "POS005",
+    "sku": "SKU019",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "9:16:00",
+    "customer_id": "CUST3622"
+  },
+  {
+    "order_id": "ORD23356",
+    "pos_id": "POS005",
+    "sku": "SKU001",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "17:21:00",
+    "customer_id": "CUST8322"
+  },
+  {
+    "order_id": "ORD74427",
+    "pos_id": "POS005",
+    "sku": "SKU025",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "15:6:00",
+    "customer_id": "CUST9047"
+  },
+  {
+    "order_id": "ORD25474",
+    "pos_id": "POS005",
+    "sku": "SKU008",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "13:41:00",
+    "customer_id": "CUST7519"
+  },
+  {
+    "order_id": "ORD59126",
+    "pos_id": "POS005",
+    "sku": "SKU007",
+    "quantity": 8,
+    "order_date": "2025-12-26",
+    "order_time": "21:29:00",
+    "customer_id": "CUST4920"
+  },
+  {
+    "order_id": "ORD11174",
+    "pos_id": "POS005",
+    "sku": "SKU025",
+    "quantity": 7,
+    "order_date": "2025-12-26",
+    "order_time": "20:30:00",
+    "customer_id": "CUST8584"
+  },
+  {
+    "order_id": "ORD85435",
+    "pos_id": "POS005",
+    "sku": "SKU022",
+    "quantity": 4,
+    "order_date": "2025-12-26",
+    "order_time": "8:14:00",
+    "customer_id": "CUST3382"
+  },
+  {
+    "order_id": "ORD63876",
+    "pos_id": "POS005",
+    "sku": "SKU001",
+    "quantity": 12,
+    "order_date": "2025-12-26",
+    "order_time": "8:30:00",
+    "customer_id": "CUST1390"
+  },
+  {
+    "order_id": "ORD31105",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "22:33:00",
+    "customer_id": "CUST2458"
+  },
+  {
+    "order_id": "ORD24281",
+    "pos_id": "POS005",
+    "sku": "SKU015",
+    "quantity": 3,
+    "order_date": "2025-12-26",
+    "order_time": "10:42:00",
+    "customer_id": "CUST8057"
+  },
+  {
+    "order_id": "ORD59236",
+    "pos_id": "POS005",
+    "sku": "SKU010",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "8:13:00",
+    "customer_id": "CUST6017"
+  },
+  {
+    "order_id": "ORD33480",
+    "pos_id": "POS005",
+    "sku": "SKU005",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "19:13:00",
+    "customer_id": "CUST4309"
+  },
+  {
+    "order_id": "ORD91142",
+    "pos_id": "POS005",
+    "sku": "SKU011",
+    "quantity": 11,
+    "order_date": "2025-12-26",
+    "order_time": "19:12:00",
+    "customer_id": "CUST8438"
+  },
+  {
+    "order_id": "ORD89413",
+    "pos_id": "POS005",
+    "sku": "SKU007",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "13:54:00",
+    "customer_id": "CUST8900"
+  },
+  {
+    "order_id": "ORD31305",
+    "pos_id": "POS005",
+    "sku": "SKU014",
+    "quantity": 13,
+    "order_date": "2025-12-26",
+    "order_time": "10:7:00",
+    "customer_id": "CUST1862"
+  },
+  {
+    "order_id": "ORD30539",
+    "pos_id": "POS005",
+    "sku": "SKU019",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "22:1:00",
+    "customer_id": "CUST7917"
+  },
+  {
+    "order_id": "ORD88682",
+    "pos_id": "POS005",
+    "sku": "SKU023",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "16:40:00",
+    "customer_id": "CUST2243"
+  },
+  {
+    "order_id": "ORD96192",
+    "pos_id": "POS005",
+    "sku": "SKU008",
+    "quantity": 1,
+    "order_date": "2025-12-26",
+    "order_time": "9:4:00",
+    "customer_id": "CUST7982"
+  },
+  {
+    "order_id": "ORD91773",
+    "pos_id": "POS005",
+    "sku": "SKU005",
+    "quantity": 8,
+    "order_date": "2025-12-26",
+    "order_time": "10:57:00",
+    "customer_id": "CUST6101"
+  },
+  {
+    "order_id": "ORD99110",
+    "pos_id": "POS005",
+    "sku": "SKU009",
+    "quantity": 12,
+    "order_date": "2025-12-26",
+    "order_time": "14:44:00",
+    "customer_id": "CUST8331"
+  },
+  {
+    "order_id": "ORD19372",
+    "pos_id": "POS005",
+    "sku": "SKU004",
+    "quantity": 8,
+    "order_date": "2025-12-26",
+    "order_time": "10:59:00",
+    "customer_id": "CUST8367"
+  },
+  {
+    "order_id": "ORD28763",
+    "pos_id": "POS005",
+    "sku": "SKU010",
+    "quantity": 12,
+    "order_date": "2025-12-26",
+    "order_time": "21:30:00",
+    "customer_id": "CUST3607"
+  },
+  {
+    "order_id": "ORD99707",
+    "pos_id": "POS005",
+    "sku": "SKU013",
+    "quantity": 5,
+    "order_date": "2025-12-26",
+    "order_time": "14:30:00",
+    "customer_id": "CUST9330"
+  },
+  {
+    "order_id": "ORD76420",
+    "pos_id": "POS005",
+    "sku": "SKU011",
+    "quantity": 2,
+    "order_date": "2025-12-26",
+    "order_time": "10:47:00",
+    "customer_id": "CUST1197"
+  },
+  {
+    "order_id": "ORD86031",
+    "pos_id": "POS005",
+    "sku": "SKU024",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "13:13:00",
+    "customer_id": "CUST3955"
+  },
+  {
+    "order_id": "ORD73292",
+    "pos_id": "POS005",
+    "sku": "SKU005",
+    "quantity": 10,
+    "order_date": "2025-12-26",
+    "order_time": "19:45:00",
+    "customer_id": "CUST8738"
+  },
+  {
+    "order_id": "ORD17919",
+    "pos_id": "POS005",
+    "sku": "SKU005",
+    "quantity": 4,
+    "order_date": "2025-12-26",
+    "order_time": "14:49:00",
+    "customer_id": "CUST5339"
+  },
+  {
+    "order_id": "ORD73093",
+    "pos_id": "POS005",
+    "sku": "SKU014",
+    "quantity": 15,
+    "order_date": "2025-12-26",
+    "order_time": "11:43:00",
+    "customer_id": "CUST7112"
+  },
+  {
+    "order_id": "ORD84122",
+    "pos_id": "POS005",
+    "sku": "SKU013",
+    "quantity": 13,
+    "order_date": "2025-12-26",
+    "order_time": "17:47:00",
+    "customer_id": "CUST8705"
+  },
+  {
+    "order_id": "ORD45020",
+    "pos_id": "POS005",
+    "sku": "SKU005",
+    "quantity": 13,
+    "order_date": "2025-12-26",
+    "order_time": "21:15:00",
+    "customer_id": "CUST4017"
+  },
+  {
+    "order_id": "ORD94591",
+    "pos_id": "POS005",
+    "sku": "SKU002",
+    "quantity": 6,
+    "order_date": "2025-12-26",
+    "order_time": "19:23:00",
+    "customer_id": "CUST1650"
+  },
+  {
+    "order_id": "ORD74155",
+    "pos_id": "POS005",
+    "sku": "SKU019",
+    "quantity": 14,
+    "order_date": "2025-12-26",
+    "order_time": "20:8:00",
+    "customer_id": "CUST9050"
+  }
+]

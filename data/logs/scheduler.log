@@ -1,0 +1,766 @@
+2025-12-26 01:46:50,533 - INFO - ======================================================================
+2025-12-26 01:46:50,535 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-26 01:46:50,659 - INFO - 📅 Scheduled to run daily at 21:30
+2025-12-26 01:46:50,674 - INFO - ⏰ Current time: 01:46:50
+2025-12-26 01:46:50,686 - INFO - Press Ctrl+C to stop
+2025-12-26 01:46:50,689 - INFO - ======================================================================
+2025-12-26 01:46:50,693 - INFO - ⏳ Waiting for scheduled time (21:30)...
+2025-12-26 01:50:48,072 - INFO - ======================================================================
+2025-12-26 01:50:48,125 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-26 01:50:48,153 - INFO - 📅 Scheduled to run daily at 21:30
+2025-12-26 01:50:48,197 - INFO - ⏰ Current time: 01:50:48
+2025-12-26 01:50:48,216 - INFO - Press Ctrl+C to stop
+2025-12-26 01:50:48,293 - INFO - ======================================================================
+2025-12-26 01:50:48,317 - INFO - ⏳ Waiting for scheduled time (21:30)...
+2025-12-26 01:51:05,045 - INFO - 
+🛑 Scheduler stopped by user
+2025-12-26 10:29:17,725 - INFO - ======================================================================
+2025-12-26 10:29:17,732 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-26 10:29:17,736 - INFO - 📅 Scheduled to run daily at 21:30
+2025-12-26 10:29:17,747 - INFO - ⏰ Current time: 10:29:17
+2025-12-26 10:29:17,762 - INFO - Press Ctrl+C to stop
+2025-12-26 10:29:17,784 - INFO - ======================================================================
+2025-12-26 10:29:17,816 - INFO - ⏳ Waiting for scheduled time (21:30)...
+2025-12-26 11:00:55,201 - INFO - ======================================================================
+2025-12-26 11:00:55,219 - INFO - STARTING DAILY PROCUREMENT PIPELINE - 2025-12-26
+2025-12-26 11:00:55,224 - INFO - ======================================================================
+2025-12-26 11:00:55,229 - INFO - Step 1/3: Generating test data...
+2025-12-26 11:00:56,291 - INFO - ✓ Data generation completed
+2025-12-26 11:00:56,295 - INFO - Generating REALISTIC data for 2025-12-26...
+Generated 106 orders for POS001
+Generated 193 orders for POS002
+Generated 131 orders for POS003
+Generated 133 orders for POS004
+Generated 141 orders for POS005
+Generated stock for WH001
+Generated stock for WH002
+Generated stock for WH003
+Done!
+
+2025-12-26 11:00:56,298 - INFO - Step 2/3: Files ready for HDFS upload
+2025-12-26 11:00:56,302 - INFO - Note: HDFS upload should be done via external script or host
+2025-12-26 11:00:56,304 - INFO - Step 3/3: Running procurement pipeline...
+2025-12-26 11:01:15,841 - INFO - ✓ Pipeline execution completed
+2025-12-26 11:01:15,843 - INFO - ======================================================================
+PROCUREMENT PIPELINE (HDFS MODE) - 2025-12-26
+======================================================================
+✓ Connected to PostgreSQL
+
+📚 Loading master data from PostgreSQL...
+  ✓ Loaded 25 products
+  ✓ Loaded 25 replenishment rules
+
+📦 Ingesting orders from HDFS for 2025-12-26...
+  ✗ Error listing /data/raw/orders/2025-12-26: HTTPConnectionPool(host='namenode', port=9870): Read timed out. (read timeout=10)
+✗ No order files found in HDFS: /data/raw/orders/2025-12-26
+
+📊 Ingesting stock data from HDFS for 2025-12-26...
+  Reading WH001_stock.csv from HDFS...
+  Reading WH002_stock.csv from HDFS...
+  Reading WH003_stock.csv from HDFS...
+  ✓ Loaded stock data for 25 SKUs from HDFS
+
+🧮 Calculating net demand...
+  ✓ Calculated net demand for 0 SKUs
+
+📄 Generating supplier orders...
+
+⚠️  1 exceptions logged to /data/logs/exceptions/2025-12-26_exceptions.json
+
+======================================================================
+✅ PIPELINE COMPLETED SUCCESSFULLY!
+======================================================================
+Summary:
+  - Orders processed from HDFS: 0 SKUs
+  - Stock items from HDFS: 25 SKUs
+  - Net demand calculated: 0 SKUs
+  - Supplier orders generated: 0
+  - Exceptions: 1
+
+Output:
+  - Local: /data/output/supplier_orders/2025-12-26/
+  - HDFS: /data/output/supplier_orders/2025-12-26/
+
+Verify HDFS output:
+  docker exec hadoop-namenode hdfs dfs -ls /data/output/supplier_orders/2025-12-26/
+
+2025-12-26 11:01:15,848 - INFO - ======================================================================
+2025-12-26 11:01:15,851 - INFO - ✅ DAILY PIPELINE COMPLETED SUCCESSFULLY
+2025-12-26 11:01:15,852 - INFO - ======================================================================
+2025-12-26 11:14:27,831 - INFO - ======================================================================
+2025-12-26 11:14:27,832 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-26 11:14:27,833 - INFO - 📅 Scheduled to run daily at 11:10
+2025-12-26 11:14:27,834 - INFO - ⏰ Current time: 11:14:27
+2025-12-26 11:14:27,835 - INFO - Press Ctrl+C to stop
+2025-12-26 11:14:27,835 - INFO - ======================================================================
+2025-12-26 11:14:27,838 - INFO - ⏳ Waiting for scheduled time (11:10)...
+2025-12-26 11:38:55,958 - INFO - ======================================================================
+2025-12-26 11:38:55,962 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-26 11:38:55,963 - INFO - 📅 Scheduled to run daily at 22:00
+2025-12-26 11:38:55,963 - INFO - ⏰ Current time: 11:38:55
+2025-12-26 11:38:55,964 - INFO - Press Ctrl+C to stop
+2025-12-26 11:38:55,964 - INFO - ======================================================================
+2025-12-26 11:38:55,966 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2025-12-26 22:01:50,297 - INFO - ======================================================================
+2025-12-26 22:01:52,453 - INFO - STARTING DAILY PROCUREMENT PIPELINE - 2025-12-26
+2025-12-26 22:01:52,665 - INFO - ======================================================================
+2025-12-26 22:01:52,919 - INFO - Step 1/3: Generating test data...
+2025-12-26 22:03:03,664 - INFO - ✓ Data generation completed
+2025-12-26 22:03:03,678 - INFO - Generating REALISTIC data for 2025-12-26...
+Generated 145 orders for POS001
+Generated 167 orders for POS002
+Generated 190 orders for POS003
+Generated 200 orders for POS004
+Generated 149 orders for POS005
+Generated stock for WH001
+Generated stock for WH002
+Generated stock for WH003
+Done!
+
+2025-12-26 22:03:03,694 - INFO - Step 2/3: Files ready for HDFS upload
+2025-12-26 22:03:03,728 - INFO - Note: HDFS upload should be done via external script or host
+2025-12-26 22:03:03,731 - INFO - Step 3/3: Running procurement pipeline...
+2025-12-26 22:04:11,921 - INFO - ✓ Pipeline execution completed
+2025-12-26 22:04:12,069 - INFO - ======================================================================
+PROCUREMENT PIPELINE (HDFS MODE) - 2025-12-26
+======================================================================
+✓ Connected to PostgreSQL
+
+📚 Loading master data from PostgreSQL...
+  ✓ Loaded 25 products
+  ✓ Loaded 25 replenishment rules
+
+📦 Ingesting orders from HDFS for 2025-12-26...
+  Reading POS001_orders.json from HDFS...
+  Reading POS002_orders.json from HDFS...
+  Reading POS003_orders.json from HDFS...
+  Reading POS004_orders.json from HDFS...
+  Reading POS005_orders.json from HDFS...
+  ✓ Processed 861 order items from HDFS
+  ✓ Aggregated demand for 25 unique SKUs
+
+📊 Ingesting stock data from HDFS for 2025-12-26...
+  Reading WH001_stock.csv from HDFS...
+  Reading WH002_stock.csv from HDFS...
+  Reading WH003_stock.csv from HDFS...
+  ✓ Loaded stock data for 25 SKUs from HDFS
+
+🧮 Calculating net demand...
+  ✓ Calculated net demand for 25 SKUs
+
+📄 Generating supplier orders...
+  ✓ Created and uploaded order for SUP005: 4 items, 1046 units
+  ✓ Created and uploaded order for SUP007: 3 items, 898 units
+  ✓ Created and uploaded order for SUP006: 3 items, 804 units
+  ✓ Created and uploaded order for SUP003: 4 items, 968 units
+  ✓ Created and uploaded order for SUP004: 3 items, 800 units
+  ✓ Created and uploaded order for SUP008: 4 items, 846 units
+  ✓ Created and uploaded order for SUP002: 4 items, 1138 units
+
+✓ No exceptions detected
+
+======================================================================
+✅ PIPELINE COMPLETED SUCCESSFULLY!
+======================================================================
+Summary:
+  - Orders processed from HDFS: 25 SKUs
+  - Stock items from HDFS: 25 SKUs
+  - Net demand calculated: 25 SKUs
+  - Supplier orders generated: 7
+  - Exceptions: 0
+
+Output:
+  - Local: /data/output/supplier_orders/2025-12-26/
+  - HDFS: /data/output/supplier_orders/2025-12-26/
+
+Verify HDFS output:
+  docker exec hadoop-namenode hdfs dfs -ls /data/output/supplier_orders/2025-12-26/
+
+2025-12-26 22:04:12,073 - INFO - ======================================================================
+2025-12-26 22:04:12,134 - INFO - ✅ DAILY PIPELINE COMPLETED SUCCESSFULLY
+2025-12-26 22:04:12,153 - INFO - ======================================================================
+2025-12-27 19:54:11,214 - INFO - ======================================================================
+2025-12-27 19:54:11,231 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-27 19:54:11,239 - INFO - 📅 Scheduled to run daily at 22:00
+2025-12-27 19:54:11,256 - INFO - ⏰ Current time: 19:54:11
+2025-12-27 19:54:11,266 - INFO - Press Ctrl+C to stop
+2025-12-27 19:54:11,269 - INFO - ======================================================================
+2025-12-27 19:54:11,272 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2025-12-27 22:00:17,912 - INFO - ======================================================================
+2025-12-27 22:00:18,026 - INFO - STARTING DAILY PROCUREMENT PIPELINE - 2025-12-27
+2025-12-27 22:00:18,037 - INFO - ======================================================================
+2025-12-27 22:00:18,044 - INFO - Step 1/3: Generating test data...
+2025-12-27 22:00:27,452 - INFO - ✓ Data generation completed
+2025-12-27 22:00:27,458 - INFO - Generating REALISTIC data for 2025-12-27...
+Generated 109 orders for POS001
+Generated 143 orders for POS002
+Generated 178 orders for POS003
+Generated 110 orders for POS004
+Generated 156 orders for POS005
+Generated stock for WH001
+Generated stock for WH002
+Generated stock for WH003
+Done!
+
+2025-12-27 22:00:27,467 - INFO - Step 2/3: Files ready for HDFS upload
+2025-12-27 22:00:27,482 - INFO - Note: HDFS upload should be done via external script or host
+2025-12-27 22:00:27,487 - INFO - Step 3/3: Running procurement pipeline...
+2025-12-27 22:00:42,570 - INFO - ✓ Pipeline execution completed
+2025-12-27 22:00:42,573 - INFO - ======================================================================
+PROCUREMENT PIPELINE (HDFS MODE) - 2025-12-27
+======================================================================
+✓ Connected to PostgreSQL
+
+📚 Loading master data from PostgreSQL...
+  ✓ Loaded 25 products
+  ✓ Loaded 25 replenishment rules
+
+📦 Ingesting orders from HDFS for 2025-12-27...
+  ✗ Error listing /data/raw/orders/2025-12-27: HTTPConnectionPool(host='namenode', port=9870): Read timed out. (read timeout=10)
+✗ No order files found in HDFS: /data/raw/orders/2025-12-27
+
+📊 Ingesting stock data from HDFS for 2025-12-27...
+  ✗ Error listing /data/raw/stock/2025-12-27: 404 Client Error: Not Found for url: http://namenode:9870/webhdfs/v1/data/raw/stock/2025-12-27?op=LISTSTATUS
+✗ No stock files found in HDFS: /data/raw/stock/2025-12-27
+
+🧮 Calculating net demand...
+  ✓ Calculated net demand for 0 SKUs
+
+📄 Generating supplier orders...
+
+⚠️  2 exceptions logged to /data/logs/exceptions/2025-12-27_exceptions.json
+
+======================================================================
+✅ PIPELINE COMPLETED SUCCESSFULLY!
+======================================================================
+Summary:
+  - Orders processed from HDFS: 0 SKUs
+  - Stock items from HDFS: 0 SKUs
+  - Net demand calculated: 0 SKUs
+  - Supplier orders generated: 0
+  - Exceptions: 2
+
+Output:
+  - Local: /data/output/supplier_orders/2025-12-27/
+  - HDFS: /data/output/supplier_orders/2025-12-27/
+
+Verify HDFS output:
+  docker exec hadoop-namenode hdfs dfs -ls /data/output/supplier_orders/2025-12-27/
+
+2025-12-27 22:00:42,576 - INFO - ======================================================================
+2025-12-27 22:00:42,580 - INFO - ✅ DAILY PIPELINE COMPLETED SUCCESSFULLY
+2025-12-27 22:00:42,580 - INFO - ======================================================================
+2025-12-28 13:39:49,487 - INFO - ======================================================================
+2025-12-28 13:39:49,504 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-28 13:39:49,531 - INFO - 📅 Scheduled to run daily at 22:00
+2025-12-28 13:39:49,590 - INFO - ⏰ Current time: 13:39:49
+2025-12-28 13:39:49,636 - INFO - Press Ctrl+C to stop
+2025-12-28 13:39:49,690 - INFO - ======================================================================
+2025-12-28 13:39:49,798 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2025-12-28 14:07:28,873 - INFO - ======================================================================
+2025-12-28 14:07:28,882 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-28 14:07:28,897 - INFO - 📅 Scheduled to run daily at 22:00
+2025-12-28 14:07:28,915 - INFO - ⏰ Current time: 14:07:28
+2025-12-28 14:07:28,929 - INFO - Press Ctrl+C to stop
+2025-12-28 14:07:28,945 - INFO - ======================================================================
+2025-12-28 14:07:28,962 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2025-12-28 15:01:50,606 - INFO - ======================================================================
+2025-12-28 15:01:50,614 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-28 15:01:50,617 - INFO - 📅 Scheduled to run daily at 15:30
+2025-12-28 15:01:50,619 - INFO - ⏰ Current time: 15:01:50
+2025-12-28 15:01:50,622 - INFO - Press Ctrl+C to stop
+2025-12-28 15:01:50,625 - INFO - ======================================================================
+2025-12-28 15:01:50,627 - INFO - ⏳ Waiting for scheduled time (15:30)...
+2025-12-28 15:30:04,907 - INFO - ======================================================================
+2025-12-28 15:30:04,982 - INFO - STARTING DAILY PROCUREMENT PIPELINE - 2025-12-28
+2025-12-28 15:30:04,992 - INFO - ======================================================================
+2025-12-28 15:30:04,994 - INFO - Step 1/3: Generating test data...
+2025-12-28 15:30:07,231 - INFO - ✓ Data generation completed
+2025-12-28 15:30:07,234 - INFO - Generating REALISTIC data for 2025-12-28...
+Generated 187 orders for POS001
+Generated 150 orders for POS002
+Generated 138 orders for POS003
+Generated 196 orders for POS004
+Generated 123 orders for POS005
+Generated stock for WH001
+Generated stock for WH002
+Generated stock for WH003
+Done!
+
+2025-12-28 15:30:07,235 - INFO - Step 2/3: Files ready for HDFS upload
+2025-12-28 15:30:07,243 - INFO - Note: HDFS upload should be done via external script or host
+2025-12-28 15:30:07,244 - INFO - Step 3/3: Running procurement pipeline...
+2025-12-28 15:30:33,412 - INFO - ✓ Pipeline execution completed
+2025-12-28 15:30:33,422 - INFO - ======================================================================
+PROCUREMENT PIPELINE (HDFS MODE) - 2025-12-28
+======================================================================
+✓ Connected to PostgreSQL
+
+📚 Loading master data from PostgreSQL...
+  ✓ Loaded 25 products
+  ✓ Loaded 25 replenishment rules
+
+📦 Ingesting orders from HDFS for 2025-12-28...
+  ✗ Error listing /data/raw/orders/2025-12-28: HTTPConnectionPool(host='namenode', port=9870): Read timed out. (read timeout=10)
+✗ No order files found in HDFS: /data/raw/orders/2025-12-28
+
+📊 Ingesting stock data from HDFS for 2025-12-28...
+  ✗ Error listing /data/raw/stock/2025-12-28: HTTPConnectionPool(host='namenode', port=9870): Read timed out. (read timeout=10)
+✗ No stock files found in HDFS: /data/raw/stock/2025-12-28
+
+🧮 Calculating net demand...
+  ✓ Calculated net demand for 0 SKUs
+
+📄 Generating supplier orders...
+
+⚠️  2 exceptions logged to /data/logs/exceptions/2025-12-28_exceptions.json
+
+======================================================================
+✅ PIPELINE COMPLETED SUCCESSFULLY!
+======================================================================
+Summary:
+  - Orders processed from HDFS: 0 SKUs
+  - Stock items from HDFS: 0 SKUs
+  - Net demand calculated: 0 SKUs
+  - Supplier orders generated: 0
+  - Exceptions: 2
+
+Output:
+  - Local: /data/output/supplier_orders/2025-12-28/
+  - HDFS: /data/output/supplier_orders/2025-12-28/
+
+Verify HDFS output:
+  docker exec hadoop-namenode hdfs dfs -ls /data/output/supplier_orders/2025-12-28/
+
+2025-12-28 15:30:33,424 - INFO - ======================================================================
+2025-12-28 15:30:33,425 - INFO - ✅ DAILY PIPELINE COMPLETED SUCCESSFULLY
+2025-12-28 15:30:33,427 - INFO - ======================================================================
+2025-12-28 18:50:00,278 - INFO - ======================================================================
+2025-12-28 18:50:00,282 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-28 18:50:00,283 - INFO - 📅 Scheduled to run daily at 15:30
+2025-12-28 18:50:00,284 - INFO - ⏰ Current time: 18:50:00
+2025-12-28 18:50:00,286 - INFO - Press Ctrl+C to stop
+2025-12-28 18:50:00,287 - INFO - ======================================================================
+2025-12-28 18:50:00,289 - INFO - ⏳ Waiting for scheduled time (15:30)...
+2025-12-29 15:30:52,621 - INFO - ======================================================================
+2025-12-29 15:30:52,737 - INFO - STARTING DAILY PROCUREMENT PIPELINE - 2025-12-29
+2025-12-29 15:30:52,740 - INFO - ======================================================================
+2025-12-29 15:30:52,742 - INFO - Step 1/3: Generating test data...
+2025-12-29 15:30:55,240 - INFO - ✓ Data generation completed
+2025-12-29 15:30:55,245 - INFO - Generating REALISTIC data for 2025-12-29...
+Generated 145 orders for POS001
+Generated 183 orders for POS002
+Generated 157 orders for POS003
+Generated 144 orders for POS004
+Generated 132 orders for POS005
+Generated stock for WH001
+Generated stock for WH002
+Generated stock for WH003
+Done!
+
+2025-12-29 15:30:55,247 - INFO - Step 2/3: Files ready for HDFS upload
+2025-12-29 15:30:55,249 - INFO - Note: HDFS upload should be done via external script or host
+2025-12-29 15:30:55,250 - INFO - Step 3/3: Running procurement pipeline...
+2025-12-29 15:31:27,876 - INFO - ✓ Pipeline execution completed
+2025-12-29 15:31:27,896 - INFO - ======================================================================
+PROCUREMENT PIPELINE (TRINO MODE) - 2025-12-29
+======================================================================
+✓ Connected to PostgreSQL
+✓ Connected to Trino
+
+📚 Loading master data from PostgreSQL...
+  ✓ Loaded 25 products
+  ✓ Loaded 25 replenishment rules
+
+📦 Querying historical orders via Trino (up to 2025-12-29)...
+  ✗ Trino query failed: TrinoUserError(type=USER_ERROR, name=COLUMN_NOT_FOUND, message="line 7:27: Column 'orders' cannot be resolved", query_id=20251229_004336_00000_9kgcf)
+
+📊 Querying latest stock via Trino...
+  ✗ No stock data found before 2025-12-29
+
+🧮 Calculating net demand...
+  ✓ Net demand calculated for 0 SKUs
+
+📄 Generating supplier orders...
+  ℹ No replenishment needed
+
+⚠️  2 exceptions → /data/logs/exceptions/2025-12-29_exceptions.json
+
+======================================================================
+✅ PIPELINE COMPLETED!
+======================================================================
+Summary:
+  - Historical orders (Trino): 0 SKUs
+  - Current stock (Trino): 0 SKUs
+  - Net demand: 0 SKUs
+  - Supplier orders: 0
+  - Exceptions: 2
+
+2025-12-29 15:31:27,908 - INFO - ======================================================================
+2025-12-29 15:31:27,914 - INFO - ✅ DAILY PIPELINE COMPLETED SUCCESSFULLY
+2025-12-29 15:31:27,922 - INFO - ======================================================================
+2025-12-30 19:35:39,173 - INFO - ======================================================================
+2025-12-30 19:35:39,200 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-30 19:35:39,206 - INFO - 📅 Scheduled to run daily at 15:30
+2025-12-30 19:35:39,216 - INFO - ⏰ Current time: 19:35:39
+2025-12-30 19:35:39,222 - INFO - Press Ctrl+C to stop
+2025-12-30 19:35:39,233 - INFO - ======================================================================
+2025-12-30 19:35:39,281 - INFO - ⏳ Waiting for scheduled time (15:30)...
+2025-12-31 15:30:42,990 - INFO - ======================================================================
+2025-12-31 15:30:43,067 - INFO - STARTING DAILY PROCUREMENT PIPELINE - 2025-12-31
+2025-12-31 15:30:43,070 - INFO - ======================================================================
+2025-12-31 15:30:43,071 - INFO - Step 1/3: Generating test data...
+2025-12-31 15:30:44,425 - INFO - ✓ Data generation completed
+2025-12-31 15:30:44,428 - INFO - Generating REALISTIC data for 2025-12-31...
+Generated 109 orders for POS001
+Generated 166 orders for POS002
+Generated 114 orders for POS003
+Generated 170 orders for POS004
+Generated 107 orders for POS005
+Generated stock for WH001
+Generated stock for WH002
+Generated stock for WH003
+Done!
+
+2025-12-31 15:30:44,430 - INFO - Step 2/3: Files ready for HDFS upload
+2025-12-31 15:30:44,431 - INFO - Note: HDFS upload should be done via external script or host
+2025-12-31 15:30:44,432 - INFO - Step 3/3: Running procurement pipeline...
+2025-12-31 15:31:25,215 - INFO - ✓ Pipeline execution completed
+2025-12-31 15:31:25,221 - INFO - ======================================================================
+PROCUREMENT PIPELINE (TRINO MODE) - 2025-12-31
+======================================================================
+✓ Connected to PostgreSQL
+✓ Connected to Trino and created tables
+
+📚 Loading master data from PostgreSQL...
+  ✓ Loaded 25 products
+  ✓ Loaded 25 replenishment rules
+
+📦 Querying orders via Trino (up to 2025-12-31)...
+  ✓ Total demand: 0 units
+  ✓ SKUs with demand: 0
+
+📊 Querying latest stock via Trino...
+  ✗ No stock data found before 2025-12-31
+
+🧮 Calculating net demand...
+  ✓ Net demand calculated for 0 SKUs
+
+📄 Generating supplier orders...
+  ℹ No replenishment needed
+
+⚠️  2 exceptions → /data/logs/exceptions/2025-12-31_exceptions.json
+
+======================================================================
+✅ PIPELINE COMPLETED!
+======================================================================
+Summary:
+  - Historical orders (Trino): 0 SKUs
+  - Current stock (Trino): 0 SKUs
+  - Net demand: 0 SKUs
+  - Supplier orders: 0
+  - Exceptions: 2
+
+2025-12-31 15:31:25,222 - INFO - ======================================================================
+2025-12-31 15:31:25,225 - INFO - ✅ DAILY PIPELINE COMPLETED SUCCESSFULLY
+2025-12-31 15:31:25,226 - INFO - ======================================================================
+2025-12-31 21:54:03,626 - INFO - ======================================================================
+2025-12-31 21:54:03,627 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-31 21:54:03,627 - INFO - 📅 Scheduled to run daily at 21:00
+2025-12-31 21:54:03,628 - INFO - ⏰ Current time: 21:54:03
+2025-12-31 21:54:03,628 - INFO - Press Ctrl+C to stop
+2025-12-31 21:54:03,629 - INFO - ======================================================================
+2025-12-31 21:54:03,631 - INFO - ⏳ Waiting for scheduled time (21:00)...
+2025-12-31 21:55:21,343 - INFO - ======================================================================
+2025-12-31 21:55:21,344 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2025-12-31 21:55:21,344 - INFO - 📅 Scheduled to run daily at 22:00
+2025-12-31 21:55:21,345 - INFO - ⏰ Current time: 21:55:21
+2025-12-31 21:55:21,345 - INFO - Press Ctrl+C to stop
+2025-12-31 21:55:21,346 - INFO - ======================================================================
+2025-12-31 21:55:21,347 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2025-12-31 22:00:21,606 - INFO - ======================================================================
+2025-12-31 22:00:21,607 - INFO - STARTING DAILY PROCUREMENT PIPELINE - 2025-12-31
+2025-12-31 22:00:21,608 - INFO - ======================================================================
+2025-12-31 22:00:21,614 - INFO - Step 1/3: Generating test data...
+2025-12-31 22:00:22,317 - INFO - ✓ Data generation completed
+2025-12-31 22:00:22,318 - INFO - Generating REALISTIC data for 2025-12-31...
+Generated 183 orders for POS001
+Generated 122 orders for POS002
+Generated 194 orders for POS003
+Generated 149 orders for POS004
+Generated 166 orders for POS005
+Generated stock for WH001
+Generated stock for WH002
+Generated stock for WH003
+Done!
+
+2025-12-31 22:00:22,321 - INFO - Step 2/3: Uploading to HDFS...
+2025-12-31 22:00:22,326 - INFO - Uploading data to HDFS for 2025-12-31
+2025-12-31 22:00:47,612 - INFO -   ✓ Uploaded POS001_orders.json
+2025-12-31 22:00:56,848 - INFO -   ✓ Uploaded POS002_orders.json
+2025-12-31 22:01:06,619 - INFO -   ✓ Uploaded POS003_orders.json
+2025-12-31 22:01:09,977 - INFO -   ✓ Uploaded POS004_orders.json
+2025-12-31 22:01:11,158 - INFO -   ✓ Uploaded POS005_orders.json
+2025-12-31 22:01:11,671 - INFO -   ✓ Uploaded WH001_stock.csv
+2025-12-31 22:01:12,023 - INFO -   ✓ Uploaded WH002_stock.csv
+2025-12-31 22:01:13,123 - INFO -   ✓ Uploaded WH003_stock.csv
+2025-12-31 22:01:13,130 - INFO - ✓ HDFS upload completed
+2025-12-31 22:01:13,179 - INFO - ✓ HDFS upload completed
+2025-12-31 22:01:13,323 - INFO - Step 3/3: Running procurement pipeline...
+2025-12-31 22:03:55,900 - INFO - ✓ Pipeline execution completed
+2025-12-31 22:03:55,923 - INFO - ======================================================================
+PROCUREMENT PIPELINE (TRINO MODE) - 2025-12-31
+======================================================================
+✓ Connected to PostgreSQL
+✓ Connected to Trino and created tables
+
+📚 Loading master data from PostgreSQL...
+  ✓ Loaded 25 products
+  ✓ Loaded 25 replenishment rules
+
+📦 Querying orders via Trino (up to 2025-12-31)...
+  ✓ Total demand: 6620 units
+  ✓ SKUs with demand: 25
+
+📊 Querying latest stock via Trino...
+  → Using stock snapshot from: 2025-12-31
+  ✓ Loaded stock for 25 SKUs
+
+🧮 Calculating net demand...
+  ✓ Net demand calculated for 25 SKUs
+
+  Top 5 calculations:
+    SKU015: orders=370, stock=117, safety=143 → net_demand=396
+    SKU011: orders=311, stock=106, safety=143 → net_demand=348
+    SKU010: orders=270, stock=67, safety=134 → net_demand=337
+    SKU001: orders=278, stock=91, safety=144 → net_demand=331
+    SKU009: orders=326, stock=165, safety=150 → net_demand=311
+
+📄 Generating supplier orders...
+  ✓ SUP002: 4 SKUs, 932 units
+  ✓ SUP005: 4 SKUs, 1070 units
+  ✓ SUP007: 3 SKUs, 668 units
+  ✓ SUP004: 3 SKUs, 1028 units
+  ✓ SUP003: 4 SKUs, 1024 units
+  ✓ SUP006: 3 SKUs, 780 units
+  ✓ SUP008: 4 SKUs, 1017 units
+
+✅ No exceptions
+
+======================================================================
+✅ PIPELINE COMPLETED!
+======================================================================
+
+📦 Procurement Results:
+  - SKUs needing replenishment: 25
+  - Total units to order: 6,519
+  - Supplier order files: 7
+
+⚠️  Quality:
+  - Exceptions logged: 0
+
+2025-12-31 22:03:55,939 - INFO - ======================================================================
+2025-12-31 22:03:55,943 - INFO - ✅ DAILY PIPELINE COMPLETED SUCCESSFULLY
+2025-12-31 22:03:55,945 - INFO - ======================================================================
+2026-01-01 19:34:55,420 - INFO - ======================================================================
+2026-01-01 19:34:55,423 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2026-01-01 19:34:55,424 - INFO - 📅 Scheduled to run daily at 22:00
+2026-01-01 19:34:55,437 - INFO - ⏰ Current time: 19:34:55
+2026-01-01 19:34:55,444 - INFO - Press Ctrl+C to stop
+2026-01-01 19:34:55,449 - INFO - ======================================================================
+2026-01-01 19:34:55,450 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2026-01-01 22:00:09,643 - INFO - ======================================================================
+2026-01-01 22:00:09,721 - INFO - STARTING DAILY PROCUREMENT PIPELINE - 2026-01-01
+2026-01-01 22:00:09,730 - INFO - ======================================================================
+2026-01-01 22:00:09,732 - INFO - Step 1/3: Generating test data...
+2026-01-01 22:00:11,358 - INFO - ✓ Data generation completed
+2026-01-01 22:00:11,368 - INFO - Generating REALISTIC data for 2026-01-01...
+Generated 189 orders for POS001
+Generated 182 orders for POS002
+Generated 179 orders for POS003
+Generated 188 orders for POS004
+Generated 109 orders for POS005
+Generated stock for WH001
+Generated stock for WH002
+Generated stock for WH003
+Done!
+
+2026-01-01 22:00:11,373 - INFO - Step 2/3: Uploading to HDFS...
+2026-01-01 22:00:11,378 - INFO - Uploading data to HDFS for 2026-01-01
+2026-01-01 22:00:45,448 - INFO -   ✓ Uploaded POS001_orders.json
+2026-01-01 22:00:46,107 - INFO -   ✓ Uploaded POS002_orders.json
+2026-01-01 22:00:46,414 - INFO -   ✓ Uploaded POS003_orders.json
+2026-01-01 22:00:47,019 - INFO -   ✓ Uploaded POS004_orders.json
+2026-01-01 22:00:47,749 - INFO -   ✓ Uploaded POS005_orders.json
+2026-01-01 22:00:49,075 - INFO -   ✓ Uploaded WH001_stock.csv
+2026-01-01 22:00:49,740 - INFO -   ✓ Uploaded WH002_stock.csv
+2026-01-01 22:00:50,020 - INFO -   ✓ Uploaded WH003_stock.csv
+2026-01-01 22:00:50,026 - INFO - ✓ HDFS upload completed
+2026-01-01 22:00:50,027 - INFO - ✓ HDFS upload completed
+2026-01-01 22:00:50,039 - INFO - Step 3/3: Running procurement pipeline...
+2026-01-01 22:01:58,711 - INFO - ======================================================================
+PROCUREMENT PIPELINE (TRINO MODE) - 2026-01-01
+======================================================================
+✓ Connected to PostgreSQL
+✓ Connected to Trino and created tables
+
+📚 Loading master data from PostgreSQL...
+  ✓ Loaded 25 products
+  ✓ Loaded 25 replenishment rules
+
+📦 Querying orders via Trino (up to 2026-01-01)...
+  ✓ Total demand: 6519 units
+  ✓ SKUs with demand: 25
+
+📊 Querying latest stock via Trino...
+  → Using stock snapshot from: 2026-01-01
+  ✓ Loaded stock for 25 SKUs
+
+🧮 Calculating net demand...
+  ✓ Net demand calculated for 25 SKUs
+
+  Top 5 calculations:
+    SKU021: orders=364, stock=170, safety=146 → net_demand=340
+    SKU020: orders=310, stock=108, safety=128 → net_demand=330
+    SKU003: orders=240, stock=77, safety=143 → net_demand=306
+    SKU011: orders=276, stock=113, safety=138 → net_demand=301
+    SKU016: orders=338, stock=192, safety=150 → net_demand=296
+
+📄 Generating supplier orders...
+  ✓ SUP005: 4 SKUs, 854 units
+  ✓ SUP002: 4 SKUs, 986 units
+  ✓ SUP003: 4 SKUs, 780 units
+  ✓ SUP004: 3 SKUs, 716 units
+  ✓ SUP008: 4 SKUs, 1152 units
+  ✓ SUP007: 3 SKUs, 584 units
+  ✓ SUP006: 3 SKUs, 840 units
+
+✅ No exceptions
+
+======================================================================
+✅ PIPELINE COMPLETED!
+======================================================================
+
+📦 Procurement Results:
+  - SKUs needing replenishment: 25
+  - Total units to order: 5,912
+  - Supplier order files: 7
+
+⚠️  Quality:
+  - Exceptions logged: 0
+
+2026-01-03 20:59:24,633 - INFO - ======================================================================
+2026-01-03 20:59:24,638 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2026-01-03 20:59:24,644 - INFO - 📅 Scheduled to run daily at 22:00
+2026-01-03 20:59:24,657 - INFO - ⏰ Current time: 20:59:24
+2026-01-03 20:59:24,672 - INFO - Press Ctrl+C to stop
+2026-01-03 20:59:24,693 - INFO - ======================================================================
+2026-01-03 20:59:24,714 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2026-01-03 22:00:28,505 - INFO - ======================================================================
+2026-01-03 22:00:28,582 - INFO - STARTING DAILY PROCUREMENT PIPELINE - 2026-01-03
+2026-01-03 22:00:28,585 - INFO - ======================================================================
+2026-01-03 22:00:28,585 - INFO - Step 1/3: Generating test data...
+2026-01-03 22:00:30,791 - INFO - ✓ Data generation completed
+2026-01-03 22:00:30,808 - INFO - Generating REALISTIC data for 2026-01-03...
+Generated 161 orders for POS001
+Generated 176 orders for POS002
+Generated 132 orders for POS003
+Generated 109 orders for POS004
+Generated 114 orders for POS005
+Generated stock for WH001
+Generated stock for WH002
+Generated stock for WH003
+Done!
+
+2026-01-03 22:00:30,815 - INFO - Step 2/3: Uploading to HDFS...
+2026-01-03 22:00:30,822 - INFO - Uploading data to HDFS for 2026-01-03
+2026-01-03 22:01:48,056 - INFO -   ✓ Uploaded POS001_orders.json
+2026-01-03 22:01:49,620 - INFO -   ✓ Uploaded POS002_orders.json
+2026-01-03 22:01:50,565 - INFO -   ✓ Uploaded POS003_orders.json
+2026-01-03 22:01:52,723 - INFO -   ✓ Uploaded POS004_orders.json
+2026-01-03 22:01:53,791 - INFO -   ✓ Uploaded POS005_orders.json
+2026-01-03 22:01:54,689 - INFO -   ✓ Uploaded WH001_stock.csv
+2026-01-03 22:01:55,146 - INFO -   ✓ Uploaded WH002_stock.csv
+2026-01-03 22:01:56,433 - INFO -   ✓ Uploaded WH003_stock.csv
+2026-01-03 22:01:56,492 - INFO - ✓ HDFS upload completed
+2026-01-03 22:01:56,518 - INFO - ✓ HDFS upload completed
+2026-01-03 22:01:56,519 - INFO - Step 3/3: Running procurement pipeline...
+2026-01-03 22:03:46,263 - INFO - ======================================================================
+PROCUREMENT PIPELINE (TRINO MODE) - 2026-01-03
+======================================================================
+✓ Connected to PostgreSQL
+✓ Connected to Trino and created tables
+
+📚 Loading master data from PostgreSQL...
+  ✓ Loaded 25 products
+  ✓ Loaded 25 replenishment rules
+
+📦 Querying orders via Trino (up to 2026-01-03)...
+  ✓ Total demand: 5565 units
+  ✓ SKUs with demand: 25
+
+📊 Querying latest stock via Trino...
+  → Using stock snapshot from: 2026-01-03
+  ✓ Loaded stock for 25 SKUs
+
+🧮 Calculating net demand...
+  ✓ Net demand calculated for 25 SKUs
+
+  Top 5 calculations:
+    SKU018: orders=269, stock=85, safety=150 → net_demand=334
+    SKU024: orders=305, stock=131, safety=134 → net_demand=308
+    SKU021: orders=240, stock=114, safety=150 → net_demand=276
+    SKU008: orders=237, stock=148, safety=150 → net_demand=239
+    SKU023: orders=220, stock=134, safety=148 → net_demand=234
+
+📄 Generating supplier orders...
+  ✓ SUP008: 4 SKUs, 746 units
+  ✓ SUP007: 3 SKUs, 742 units
+  ✓ SUP004: 3 SKUs, 596 units
+  ✓ SUP003: 4 SKUs, 854 units
+  ✓ SUP002: 4 SKUs, 720 units
+  ✓ SUP006: 3 SKUs, 552 units
+  ✓ SUP005: 4 SKUs, 892 units
+
+✅ No exceptions
+
+======================================================================
+✅ PIPELINE COMPLETED!
+======================================================================
+
+📦 Procurement Results:
+  - SKUs needing replenishment: 25
+  - Total units to order: 5,102
+  - Supplier order files: 7
+
+⚠️  Quality:
+  - Exceptions logged: 0
+
+2026-01-04 22:54:55,494 - INFO - ======================================================================
+2026-01-04 22:54:55,504 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2026-01-04 22:54:55,526 - INFO - 📅 Scheduled to run daily at 22:00
+2026-01-04 22:54:55,546 - INFO - ⏰ Current time: 22:54:55
+2026-01-04 22:54:55,575 - INFO - Press Ctrl+C to stop
+2026-01-04 22:54:55,594 - INFO - ======================================================================
+2026-01-04 22:54:55,611 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2026-01-08 12:53:09,105 - INFO - ======================================================================
+2026-01-08 12:53:09,122 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2026-01-08 12:53:09,138 - INFO - 📅 Scheduled to run daily at 22:00
+2026-01-08 12:53:09,167 - INFO - ⏰ Current time: 12:53:09
+2026-01-08 12:53:09,184 - INFO - Press Ctrl+C to stop
+2026-01-08 12:53:09,226 - INFO - ======================================================================
+2026-01-08 12:53:09,244 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2026-01-09 00:56:59,513 - INFO - ======================================================================
+2026-01-09 00:56:59,517 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2026-01-09 00:56:59,529 - INFO - 📅 Scheduled to run daily at 22:00
+2026-01-09 00:56:59,531 - INFO - ⏰ Current time: 00:56:59
+2026-01-09 00:56:59,531 - INFO - Press Ctrl+C to stop
+2026-01-09 00:56:59,532 - INFO - ======================================================================
+2026-01-09 00:56:59,546 - INFO - ⏳ Waiting for scheduled time (22:00)...
+2026-01-12 09:30:14,734 - INFO - ======================================================================
+2026-01-12 09:30:14,837 - INFO - 🕐 Procurement Pipeline Scheduler Started
+2026-01-12 09:30:14,892 - INFO - 📅 Scheduled to run daily at 22:00
+2026-01-12 09:30:14,968 - INFO - ⏰ Current time: 09:30:14
+2026-01-12 09:30:15,081 - INFO - Press Ctrl+C to stop
+2026-01-12 09:30:15,132 - INFO - ======================================================================
+2026-01-12 09:30:15,200 - INFO - ⏳ Waiting for scheduled time (22:00)...

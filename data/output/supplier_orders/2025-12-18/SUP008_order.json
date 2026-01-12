@@ -1,0 +1,49 @@
+{
+  "supplier_id": "SUP008",
+  "order_date": "2025-12-18",
+  "generated_at": "2025-12-25T19:52:12.879161",
+  "total_items": 4,
+  "total_quantity": 815,
+  "items": [
+    {
+      "sku": "SKU018",
+      "product_name": "Lettuce Head",
+      "supplier_id": "SUP008",
+      "raw_demand": 177,
+      "rounded_demand": 180,
+      "final_quantity": 180,
+      "case_size": 12,
+      "moq": 30
+    },
+    {
+      "sku": "SKU016",
+      "product_name": "Tomatoes 1kg",
+      "supplier_id": "SUP008",
+      "raw_demand": 199,
+      "rounded_demand": 210,
+      "final_quantity": 210,
+      "case_size": 15,
+      "moq": 50
+    },
+    {
+      "sku": "SKU019",
+      "product_name": "Apples 1kg",
+      "supplier_id": "SUP008",
+      "raw_demand": 165,
+      "rounded_demand": 165,
+      "final_quantity": 165,
+      "case_size": 15,
+      "moq": 50
+    },
+    {
+      "sku": "SKU017",
+      "product_name": "Bananas 1kg",
+      "supplier_id": "SUP008",
+      "raw_demand": 248,
+      "rounded_demand": 260,
+      "final_quantity": 260,
+      "case_size": 20,
+      "moq": 60
+    }
+  ]
+}

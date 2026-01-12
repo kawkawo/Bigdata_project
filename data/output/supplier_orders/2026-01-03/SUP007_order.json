@@ -1,0 +1,48 @@
+{
+  "supplier_id": "SUP007",
+  "order_date": "2026-01-03",
+  "generated_at": "2026-01-03T22:03:42.961929",
+  "total_items": 3,
+  "total_quantity": 742,
+  "items": [
+    {
+      "sku": "SKU023",
+      "product_name": "Dish Soap 500ml",
+      "supplier_id": "SUP007",
+      "historical_orders": 220,
+      "current_stock": 134,
+      "safety_stock": 148,
+      "raw_demand": 234,
+      "rounded_demand": 240,
+      "final_quantity": 240,
+      "case_size": 12,
+      "moq": 30
+    },
+    {
+      "sku": "SKU024",
+      "product_name": "Toilet Paper 4-pack",
+      "supplier_id": "SUP007",
+      "historical_orders": 305,
+      "current_stock": 131,
+      "safety_stock": 134,
+      "raw_demand": 308,
+      "rounded_demand": 310,
+      "final_quantity": 310,
+      "case_size": 10,
+      "moq": 35
+    },
+    {
+      "sku": "SKU025",
+      "product_name": "Laundry Detergent 1L",
+      "supplier_id": "SUP007",
+      "historical_orders": 239,
+      "current_stock": 195,
+      "safety_stock": 142,
+      "raw_demand": 186,
+      "rounded_demand": 192,
+      "final_quantity": 192,
+      "case_size": 8,
+      "moq": 25
+    }
+  ]
+}

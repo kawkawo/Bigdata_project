@@ -1,0 +1,48 @@
+{
+  "supplier_id": "SUP006",
+  "order_date": "2026-01-01",
+  "generated_at": "2026-01-01T22:01:58.003472",
+  "total_items": 3,
+  "total_quantity": 840,
+  "items": [
+    {
+      "sku": "SKU020",
+      "product_name": "Potato Chips 150g",
+      "supplier_id": "SUP006",
+      "historical_orders": 310,
+      "current_stock": 108,
+      "safety_stock": 128,
+      "raw_demand": 330,
+      "rounded_demand": 336,
+      "final_quantity": 336,
+      "case_size": 12,
+      "moq": 50
+    },
+    {
+      "sku": "SKU021",
+      "product_name": "Chocolate Bar 100g",
+      "supplier_id": "SUP006",
+      "historical_orders": 364,
+      "current_stock": 170,
+      "safety_stock": 146,
+      "raw_demand": 340,
+      "rounded_demand": 360,
+      "final_quantity": 360,
+      "case_size": 24,
+      "moq": 80
+    },
+    {
+      "sku": "SKU022",
+      "product_name": "Cookies Pack 200g",
+      "supplier_id": "SUP006",
+      "historical_orders": 246,
+      "current_stock": 226,
+      "safety_stock": 114,
+      "raw_demand": 134,
+      "rounded_demand": 144,
+      "final_quantity": 144,
+      "case_size": 12,
+      "moq": 40
+    }
+  ]
+}
