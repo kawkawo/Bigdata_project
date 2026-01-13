@@ -1,7 +1,10 @@
-Procurement Pipeline Project
-📋 Overview
 
+# Procurement Pipeline Project
+
+## 📋 Overview
+```
 Simplified data pipeline for a procurement system using distributed architecture with Hadoop, PostgreSQL, and Trino.
+
 
 
 ┌─────────────────────────────────────────────────────────┐
