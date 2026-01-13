@@ -1,6 +1,19 @@
-# Procurement Pipeline Project
-
-## 📋 Overview
+Procurement Pipeline Project
+📋 Overview
 
 Simplified data pipeline for a procurement system using distributed architecture with Hadoop, PostgreSQL, and Trino.
-- ✅ Business logic implementation
+
+
+┌─────────────────────────────────────────────────────────┐
+│  PROCUREMENT DATA PIPELINE                              │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  [POS Systems] → [HDFS Raw Data] → [Trino Query]        │
+│                         ↓                               │
+│                  [Aggregation]                          │
+│                         ↓                               │
+│  [PostgreSQL] → [Net Demand Calculation]                │
+│   (Master Data)         ↓                               │
+│                  [Supplier Orders]                      │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
